@@ -29,7 +29,7 @@ echo " "
 echo "Setup BAZO-Keypairgen started"
 go get github.com/bazo-blockchain/bazo-keypairgen
 cd
-cd $GOPATH/src/github.com/bazo-blockchain/bazo-keypairgen
+cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-keypairgen
 go build
 ./bazo-keypairgen validator.txt
 ./bazo-keypairgen multisig.txt
@@ -39,20 +39,20 @@ echo " "
 echo "BAZO-Miner Download startet."
 go get github.com/bazo-blockchain/bazo-miner
 cd
-cd $GOPATH/src/github.com/bazo-blockchain/bazo-keypairgen
-cp validator.txt $GOPATH/src/github.com/bazo-blockchain/bazo-miner/validator.txt
-cp multisig.txt $GOPATH/src/github.com/bazo-blockchain/bazo-miner/multisig.txt
+cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-keypairgen
+cp validator.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/validator.txt
+cp multisig.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/multisig.txt
 echo "Files copied"
 cd
-validator_file="$GOPATH/src/github.com/bazo-blockchain/bazo-miner/validator.txt"
+validator_file="/home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/validator.txt"
 first_key=$(head -n1 "$validator_file" | tr -d '\n')
 echo $first_key
 second_key=$(head -n2 "$validator_file" | tail -n1 | tr -d '\n')
 echo $second_key
-configs_file="$GOPATH/src/github.com/bazo-blockchain/bazo-miner/storage/configs.go"
+configs_file="/home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/storage/configs.go"
 sed -ie "s/INITROOTPUBKEY1 = .*/INITROOTPUBKEY1 = \"$first_key\"/" "$configs_file"
 sed -ie "s/INITROOTPUBKEY2 = .*/INITROOTPUBKEY2 = \"$second_key\"/" "$configs_file"
-cd $GOPATH/src/github.com/bazo-blockchain/bazo-miner
+cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 go build
 echo "Miner Setup done"
 
