@@ -55,4 +55,14 @@ sed -ie "s/INITROOTPUBKEY2 = .*/INITROOTPUBKEY2 = \"$second_key\"/" "$configs_fi
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 go build
 echo "Miner Setup done"
+echo " "
+
+echo "BAZO-Client download and setup - Started"
+cd 
+go get github.com/bazo-blockchain/bazo-client
+cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
+go build
+cd 
+echo "BAZO-Client download and setup - Finished"
+echo " "
 
