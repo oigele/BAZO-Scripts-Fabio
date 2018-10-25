@@ -1,49 +1,57 @@
 #!/bin/bash
 
-echo "Automated script for downloading and preparing BAZO Keypairgen, miner and client"
+echo "Automated script for downloading and preparing GO, BAZO Keypairgen, miner and client"
+ehco "Setup GO - Started"
 sudo snap install --classic go
-echo "Setup go finished:"
+echo "GO Version:"
 go version
+echo "GO ENV:"
 go env
+echo "Setup GO - Finished"
 echo " "
 
-echo "Updating GCC"
+echo "Updating GCC - Started"
 sudo apt-get update
 sudo apt install gcc
-echo "finished updating gcc"
+echo "Updating GCC - Finished"
 echo " "
 
-echo "Clear GO cache"
+echo "Clear GO cache - Started"
 cd /home/ubuntu/.cache/
 sudo rm -R go-build/
-echo "GO cache cleared"
+echo "Clear GO cache - Finished"
 echo " "
 
-echo "SET GOPATH"
+echo "Set GOPATH - Started"
 echo "export PATH=$PATH:/usr/local/go/bin" >> .profile
 echo "export GOPATH=$HOME/go;" >> .profile
 echo "export PATH=$PATH:$GOPATH/bin;" >> .profile
-echo "SET GOPATH done"
+echo "Set GOPATH - Finished"
 echo " "
 
-echo "Setup BAZO-Keypairgen started"
+echo "Setup BAZO-Keypairgen - Started"
+echo "  Downloading BAZO-Keypairgen from Github"
 go get github.com/bazo-blockchain/bazo-keypairgen
 cd
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-keypairgen
 go build
+echo "  Create validator.txt & multisig.txt"
 ./bazo-keypairgen validator.txt
 ./bazo-keypairgen multisig.txt
-echo "BAZO-Keypairgen download done"
-
+echo "Setup BAZO-Keypairgen - Finished"
 echo " "
-echo "BAZO-Miner Download startet."
+
+echo "Setup BAZO-Miner - Startet."
+echo "  Downloading BAZO-Miner from Github"
 go get github.com/bazo-blockchain/bazo-miner
 cd
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-keypairgen
+echo "  Copy vaildator.txt & multisig.txt into miner folder"
 cp validator.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/validator.txt
 cp multisig.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/multisig.txt
-echo "Files copied"
+echo "  Validator.txt & multisig.txt  copied"
 cd
+echo "  Replace INITROOTKEY1 & INITROOTKEY2 in configs.go"
 validator_file="/home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/validator.txt"
 first_key=$(head -n1 "$validator_file" | tr -d '\n')
 echo $first_key
@@ -52,17 +60,20 @@ echo $second_key
 configs_file="/home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/storage/configs.go"
 sed -ie "s/INITROOTPUBKEY1 = .*/INITROOTPUBKEY1 = \"$first_key\"/" "$configs_file"
 sed -ie "s/INITROOTPUBKEY2 = .*/INITROOTPUBKEY2 = \"$second_key\"/" "$configs_file"
+echo "  Replacement done"
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 go build
-echo "Miner Setup done"
+echo "Setup BAZO-Miner - Finished"
 echo " "
 
-echo "BAZO-Client download and setup - Started"
+echo "Setup BAZO-Client - Started"
+echo "  Downloading BAZO-Client from Github"
 cd 
 go get github.com/bazo-blockchain/bazo-client
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 go build
 cd 
-echo "BAZO-Client download and setup - Finished"
+echo "Setup BAZO-Client - Finished"
 echo " "
+
 
