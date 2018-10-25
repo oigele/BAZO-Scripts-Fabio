@@ -15,7 +15,7 @@ This Script is for setting up the key parts of the BAZO-Blockchain on a new UBUN
 
 Clone this Repo with:
 ```
-git clone github.com/bazo-blockchain/bazo-miner
+git clone https://github.com/febe19/BAZO-Scripts-Fabio.git
 ```
 
 Then cd into folder and let teh script run:
