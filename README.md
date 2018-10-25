@@ -1,6 +1,6 @@
-#Automated Setup For BAZO
+# Automated Setup For BAZO
 
-##General Information
+## General Information
 
 This Script is for setting up the key parts of the BAZO-Blockchain on a new UBUNTU Virtual Machine. 
 1. It downloades GO with SNAP
@@ -11,7 +11,7 @@ This Script is for setting up the key parts of the BAZO-Blockchain on a new UBUN
 6. It gets the BAZO-Miner from `github.com/bazo-blockchain/bazo-miner`. Then it copies `validator.txt` & `multisig.txt` from step 5. into the correct folder and replaces `INITROOTKEY1` & `INITROOTKEY2`
 7. it gets the BAZO-Client from `github.com/bazo-blockchain/bazo-client`
 
-##Setup
+## Setup
 
 Clone this Repo with:
 ```
@@ -24,4 +24,4 @@ cd BAZO-Scripts-Fabio
 ./setup_script.sh
 ```
 
-Now you can use the BAZO-Miner &BAZO-Client
+Now you can use the BAZO-Miner & BAZO-Client
