@@ -4,7 +4,7 @@
 
 This Script is for setting up the key parts of the BAZO-Blockchain on a new UBUNTU Virtual Machine. 
 1. It downloades GO with SNAP
-2. It updates GCC to teh latest version
+2. It updates GCC to the latest version
 3. It clears GO - Cache
 4. It sets GOPATH in the `.profile`
 5. It gets the BAZO-Keypairgen form `github.com/bazo-blockchain/bazo-keypairgen`. Then it creates the `validator.txt` & `multisig.txt`.
