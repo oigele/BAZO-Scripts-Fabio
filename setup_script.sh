@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Automated script for downloading and preparing GO, BAZO Keypairgen, miner and client"
-ehco "Setup GO - Started"
+echo "Setup GO - Started"
 sudo snap install --classic go
 echo "GO Version:"
 go version
