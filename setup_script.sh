@@ -26,6 +26,9 @@ echo "Set GOPATH - Started"
 echo "export PATH=$PATH:/usr/local/go/bin" >> .profile
 echo "export GOPATH=$HOME/go;" >> .profile
 echo "export PATH=$PATH:$GOPATH/bin;" >> .profile
+source .profile
+echo "GOPATH: " $GOPATH
+echo "PATH: " $PATH
 echo "Set GOPATH - Finished"
 echo " "
 
