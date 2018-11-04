@@ -52,12 +52,12 @@ cp multisig.txt ~/go/src/github.com/bazo-blockchain/bazo-miner/multisig.txt
 echo "  Validator.txt & multisig.txt  copied"
 cd
 echo "  Replace INITROOTKEY1 & INITROOTKEY2 in configs.go"
-validator_file="~/go/src/github.com/bazo-blockchain/bazo-miner/validator.txt"
+validator_file="/~/go/src/github.com/bazo-blockchain/bazo-miner/validator.txt"
 first_key=$(head -n1 "$validator_file" | tr -d '\n')
 echo $first_key
 second_key=$(head -n2 "$validator_file" | tail -n1 | tr -d '\n')
 echo $second_key
-configs_file="~/go/src/github.com/bazo-blockchain/bazo-miner/storage/configs.go"
+configs_file="/~/go/src/github.com/bazo-blockchain/bazo-miner/storage/configs.go"
 sed -ie "s/INITROOTPUBKEY1 = .*/INITROOTPUBKEY1 = \"$first_key\"/" "$configs_file"
 sed -ie "s/INITROOTPUBKEY2 = .*/INITROOTPUBKEY2 = \"$second_key\"/" "$configs_file"
 echo "  Replacement done"
