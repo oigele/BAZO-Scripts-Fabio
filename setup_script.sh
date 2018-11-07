@@ -80,6 +80,7 @@ echo "Setup BAZO-Client - Finished"
 echo " "
 
 echo "Enable Colorful Prompt"
-sed -i -e 's/#force_color_prompt=yes/force_color_prompt=yes/g' .bashrc
-source .bashrc
-echo "Colorful Prompt Enabled
+sed -ie "s/#force_color_prompt/force_color_prompt/g" /home/ubuntu/.bashrc
+echo ".bashrc color replaced"
+source /home/ubuntu/.bashrc
+echo "Colorful Prompt Enabled"
