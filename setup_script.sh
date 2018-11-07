@@ -78,3 +78,8 @@ go build
 cd 
 echo "Setup BAZO-Client - Finished"
 echo " "
+
+echo "Enable Colorful Prompt"
+sed -i -e 's/#force_color_prompt=yes/force_color_prompt=yes/g' .bashrc
+source .bashrc
+echo "Colorful Prompt Enabled
