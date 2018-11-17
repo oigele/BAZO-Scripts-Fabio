@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Automated script for downloading and preparing GO"
+echo "Setup BAZO-Client - Started"
+echo "  Downloading BAZO-Client from Github"
+cd 
+go get github.com/bazo-blockchain/bazo-client
+cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
+go build
+cd 
+echo "Setup BAZO-Client - Finished"
+echo " "
