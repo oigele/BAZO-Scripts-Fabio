@@ -7,3 +7,6 @@ cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 go build
 echo "Download & build of BAZO-Miner - Finished"
 echo " "
+
+echo "This machines public IP-adress"
+curl https://ipinfo.io/ip
