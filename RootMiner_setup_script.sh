@@ -8,5 +8,7 @@ go build
 echo "Download & build of BAZO-Miner - Finished"
 echo " "
 
-echo "This machines public IP-adress"
+echo "This machines public IP-adress --> Alias: pubIP"
 curl https://ipinfo.io/ip
+echo "alias pubIP='curl https://ipinfo.io/ip'" >> ~/.bashrc
+source .bashrc
