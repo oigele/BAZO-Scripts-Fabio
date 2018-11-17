@@ -9,4 +9,4 @@ echo "Download & build of BAZO-Miner - Finished"
 echo " "
 
 echo "This machines public IP-adress"
-url https://ipinfo.io/ip
+curl https://ipinfo.io/ip
