@@ -32,6 +32,12 @@ echo "PATH: " $PATH
 echo "Set GOPATH - Finished"
 echo " "
 
+echo "This machines public IP-adress --> Alias: pubIP"
+curl https://ipinfo.io/ip
+echo "alias pubIP='curl https://ipinfo.io/ip'" >> ~/.bashrc
+source ~/.bashrc
+cd
+
 echo "Enable Colorful Prompt"
 sed -ie "s/#force_color_prompt/force_color_prompt/g" /home/ubuntu/.bashrc
 echo ".bashrc color replaced"
