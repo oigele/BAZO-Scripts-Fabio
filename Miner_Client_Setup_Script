@@ -1,0 +1,43 @@
+#!/bin/bash
+
+echo "This machines public IP-adress --> Alias: pubIP"
+curl https://ipinfo.io/ip
+echo "alias pubIP='curl https://ipinfo.io/ip'" >> ~/.bashrc
+source ~/.bashrc
+cd
+source .bashrc
+
+echo "Automated script for downloading and preparing the Miner for Bazo-blockchain"
+echo "  Downloading BAZO-Miner from Github"
+go get github.com/bazo-blockchain/bazo-miner
+cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+go build
+echo "Download & build of BAZO-Miner - Finished"
+echo " "
+
+echo "Automated script for downloading and preparing GO"
+echo "Setup BAZO-Client - Started"
+echo "  Downloading BAZO-Client from Github"
+cd 
+go get github.com/bazo-blockchain/bazo-client
+cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
+go build
+cd 
+echo "Setup BAZO-Client - Finished"
+echo " "
+
+echo "Creating Account for this machines Miner"
+cd home/ubuntu/BAZO-Scripts-Fabio
+cp RootAccountWallet.txt home/ubunut/go/src/github.com/Bazo-blockchain/bazo-client
+cd home/ubunut/go/src/github.com/Bazo-blockchain/bazo-client
+cat RootAccountWallet.txt
+./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
+echo "new Wallet.txt created"
+cat Wallet.txt
+echo "please insert transaction count for root account:"
+read answer
+echo Ihre Antwort war: $answer
+echo "copy database to miner"
+cd 
+cd home/ubuntu/BAZO-Scripts-Fabio
+cp RootAccountStore.db home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner/Store.db
