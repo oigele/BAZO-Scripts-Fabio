@@ -1,12 +1,5 @@
 #!/bin/bash
 
-echo "This machines public IP-adress --> Alias: pubIP"
-curl https://ipinfo.io/ip
-echo "alias pubIP='curl https://ipinfo.io/ip'" >> ~/.bashrc
-source ~/.bashrc
-cd
-source .bashrc
-
 echo "Automated script for downloading and preparing the Miner for Bazo-blockchain"
 echo "  Downloading BAZO-Miner from Github"
 go get github.com/bazo-blockchain/bazo-miner
@@ -27,13 +20,25 @@ echo "Setup BAZO-Client - Finished"
 echo " "
 
 echo "Creating Account for this machines Miner"
-cd home/ubuntu/BAZO-Scripts-Fabio
+cd /home/ubuntu/BAZO-Scripts-Fabio
 git pull origin
-cp RootAccountWallet.txt home/ubunut/go/src/github.com/Bazo-blockchain/bazo-client
-cp RootAccountCommitment.txt home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner
-cd home/ubunut/go/src/github.com/Bazo-blockchain/bazo-client
+cp RootAccountWallet.txt /home/ubunut/go/src/github.com/Bazo-blockchain/bazo-client
+cp RootAccountCommitment.txt /home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner
+cd /home/ubunut/go/src/github.com/Bazo-blockchain/bazo-client
 cat RootAccountWallet.txt
-cd home/ubunut/go/src/github.com/Bazo-blockchain/bazo-client
+
+cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
+echo this machines public ip:
+pbIP=$(curl https://ipinfo.io/ip)
+echo enter bootstrap ip: [number]
+read btIP
+jq '.this_client.ip="'$pbIP'"' configuration.json > temp.json
+rm configuration.json
+jq '.bootstrap_server.ip="'$btIP'"' temp.json > configuration.json
+cat configuration.json
+rm temp.json
+
+cd /home/ubunut/go/src/github.com/Bazo-blockchain/bazo-client
 ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
 echo "new Wallet.txt created"
 cat Wallet.txt
@@ -45,11 +50,11 @@ echo ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount 
 echo "enable staking for new account" 
 ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
 echo "copy Wallet.txt and Commitment.txt to miner folder"
-cp Wallet.txt home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner
-cp Commitment.txt home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner
+cp Wallet.txt /home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner
+cp Commitment.txt /home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner
 cd
 echo "copy database to miner folder"
-cd home/ubuntu/BAZO-Scripts-Fabio
+cd /home/ubuntu/BAZO-Scripts-Fabio
 cp RootAccountStore.db home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner/Store.db
 echo " "
 
