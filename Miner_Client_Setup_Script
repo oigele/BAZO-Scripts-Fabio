@@ -22,9 +22,9 @@ echo " "
 echo "Creating Account for this machines Miner"
 cd /home/ubuntu/BAZO-Scripts-Fabio
 git pull origin
-cp RootAccountWallet.txt /home/ubuntu/go/src/github.com/Bazo-blockchain/bazo-client
-cp RootAccountCommitment.txt /home/ubuntu/go/src/github.com/Bazo-blockchain/bazo-miner
-cd /home/ubuntu/go/src/github.com/Bazo-blockchain/bazo-client
+cp RootAccountWallet.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
+cp RootAccountCommitment.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 cat RootAccountWallet.txt
 
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
@@ -39,7 +39,7 @@ jq '.bootstrap_server.ip="'$btIP'"' temp.json > configuration.json
 cat configuration.json
 rm temp.json
 
-cd /home/ubunut/go/src/github.com/Bazo-blockchain/bazo-client
+cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
 echo "new Wallet.txt created"
 cat Wallet.txt
@@ -51,12 +51,13 @@ echo ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount 
 echo "enable staking for new account" 
 ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
 echo "copy Wallet.txt and Commitment.txt to miner folder"
-cp Wallet.txt /home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner
-cp Commitment.txt /home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner
+cp Wallet.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+cp Commitment.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 cd
 echo "copy database to miner folder"
 cd /home/ubuntu/BAZO-Scripts-Fabio
-cp RootAccountStore.db home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner/Store.db
+cp RootAccountStore.db /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
 echo " "
 
+cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 echo "You can start this miner with: bazo-miner start --database Store.db --address echo $(curl https://ipinfo.io/ip):8000 --bootstrap 35.176.39.251:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt"
