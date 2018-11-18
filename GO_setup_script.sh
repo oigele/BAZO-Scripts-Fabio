@@ -38,6 +38,11 @@ echo "alias pubIP='curl https://ipinfo.io/ip'" >> ~/.bashrc
 source ~/.bashrc
 cd
 
+echo "download jq for json replacement"
+sudo apt install jq
+echo "done"
+echo " "
+
 echo "Enable Colorful Prompt"
 sed -ie "s/#force_color_prompt/force_color_prompt/g" /home/ubuntu/.bashrc
 echo ".bashrc color replaced"
