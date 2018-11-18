@@ -23,6 +23,7 @@ echo "Creating Account for this machines Miner"
 cd /home/ubuntu/BAZO-Scripts-Fabio
 git pull origin
 cp RootAccountWallet.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
+cp RootAccountWallet.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 cp RootAccountCommitment.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 
@@ -95,4 +96,5 @@ cd /home/ubuntu/BAZO-Scripts-Fabio
 cp RootAccountStore.db /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
 echo " "
 
-echo "You can start this miner with: bazo-miner start --database Store.db --address echo $(curl https://ipinfo.io/ip):8000 --bootstrap 35.176.39.251:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt"
+echo "You can start this miner with:"
+echo ./bazo-miner start --database Store.db --address echo $(curl https://ipinfo.io/ip):8000 --bootstrap $btIP:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt"
