@@ -44,6 +44,7 @@ echo "create new Wallet"
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
 
+echo " "
 echo "Transaction verified, if not restart miner: [y/n]"
 read restarted
 if [ "$restartet" != "n" ]
@@ -52,13 +53,14 @@ if [ "$restartet" != "n" ]
 fi
 echo "new Wallet.txt created"
 
-
+echo " "
 echo "Please insert transaction count for root account (same as in block mentioned): [number]"
 read answer
 echo transfer 2000 from RootAccount to this account.
 echo ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
 ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
 
+echo " "
 echo "Restart Miner if Sig1 invalid error occurs."
 echo Miner restarted: [y/n]
 read restarted
@@ -67,6 +69,7 @@ if [ "$restartet" != "n" ]
   else echo this will crash... Better abort mission now!!!
 fi
 
+echo " "
 echo "Funds transaction successfully verified: [y/n]"
 read restarted
 if [ "$restartet" != "n" ]
@@ -77,6 +80,7 @@ echo "enable staking for new account"
 echo ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
 ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
 
+echo " "
 echo "Transaction verified, if not restart miner: [y/n]"
 read restarted
 if [ "$restartet" != "n" ]
