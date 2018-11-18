@@ -53,14 +53,15 @@ echo transfer 2000 from RootAccount to this account.
 echo ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
 ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
 
-echo Please restart Miner: [y/n]
+echo "Restart Miner if Sig1 invalid error occurs."
+echo Miner restarted: [y/n]
 read restarted
 if [ "$restartet" != "n" ]
   then ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
   else echo this will crash...
 fi
 
-echo Funds transaction successfully verified: [y/n]
+echo "Funds transaction successfully verified: [y/n]"
 read restarted
 if [ "$restartet" != "n" ]
   then echo "perfect :) thank you."
