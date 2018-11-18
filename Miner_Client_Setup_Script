@@ -25,7 +25,6 @@ git pull origin
 cp RootAccountWallet.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 cp RootAccountCommitment.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
-cat RootAccountWallet.txt
 
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 echo this machines public ip:
@@ -44,8 +43,15 @@ cd
 echo "create new Wallet"
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
+
+echo "Transaction verified, if not restart miner: [y/n]"
+read restarted
+if [ "$restartet" != "n" ]
+  then ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
+  else echo this will crash... Better abort mission now!!!
+fi
 echo "new Wallet.txt created"
-cat Wallet.txt
+
 
 echo "Please insert transaction count for root account (same as in block mentioned): [number]"
 read answer
@@ -58,24 +64,24 @@ echo Miner restarted: [y/n]
 read restarted
 if [ "$restartet" != "n" ]
   then ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
-  else echo this will crash...
+  else echo this will crash... Better abort mission now!!!
 fi
 
 echo "Funds transaction successfully verified: [y/n]"
 read restarted
 if [ "$restartet" != "n" ]
   then echo "perfect :-)"
-  else echo this will crash...
+  else echo this will crash... Better abort mission now!!!
 fi
 echo "enable staking for new account" 
 echo ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
 ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
-echo "copy Wallet.txt and Commitment.txt to miner folder"
+
 echo "Transaction verified, if not restart miner: [y/n]"
 read restarted
 if [ "$restartet" != "n" ]
   then ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
-  else echo this will crash...
+  else echo this will crash... Better abort mission now!!!
 fi
 cp Wallet.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 cp Commitment.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
