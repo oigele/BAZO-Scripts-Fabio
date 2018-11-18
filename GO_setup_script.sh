@@ -36,4 +36,6 @@ echo "Enable Colorful Prompt"
 sed -ie "s/#force_color_prompt/force_color_prompt/g" /home/ubuntu/.bashrc
 echo ".bashrc color replaced"
 source /home/ubuntu/.bashrc
+cd 
+source .bashrc
 echo "Colorful Prompt Enabled"
