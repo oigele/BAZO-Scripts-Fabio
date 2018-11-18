@@ -12,3 +12,5 @@ echo "This machines public IP-adress --> Alias: pubIP"
 curl https://ipinfo.io/ip
 echo "alias pubIP='curl https://ipinfo.io/ip'" >> ~/.bashrc
 source ~/.bashrc
+cd
+source .bashrc
