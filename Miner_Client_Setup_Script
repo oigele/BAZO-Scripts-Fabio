@@ -44,7 +44,7 @@ echo ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount 
 ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
 echo "enable staking for new account" 
 ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
-echo "copy Wallet.txt and Commitment.txt" to miner folder
+echo "copy Wallet.txt and Commitment.txt to miner folder"
 cp Wallet.txt home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner
 cp Commitment.txt home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner
 cd
