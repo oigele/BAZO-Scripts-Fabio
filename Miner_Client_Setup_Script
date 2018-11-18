@@ -43,15 +43,24 @@ cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
 echo "new Wallet.txt created"
 cat Wallet.txt
+
 echo "(maybe restart Miner). Please insert transaction count for root account: [number]"
 read answer
 echo transfer 2000 from RootAccount to this account.
 echo ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
 ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
+
 echo Please restart Miner: [j/n]
 read restarted
 if [ "$restartet" != "n" ]
   then ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
+  else echo this will crash...
+fi
+
+echo Funds transaction successfully verified: [j/n]
+read restarted
+if [ "$restartet" != "n" ]
+  then echo perfect :) thank you.
   else echo this will crash...
 fi
 echo "enable staking for new account" 
@@ -65,5 +74,4 @@ cd /home/ubuntu/BAZO-Scripts-Fabio
 cp RootAccountStore.db /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
 echo " "
 
-cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 echo "You can start this miner with: bazo-miner start --database Store.db --address echo $(curl https://ipinfo.io/ip):8000 --bootstrap 35.176.39.251:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt"
