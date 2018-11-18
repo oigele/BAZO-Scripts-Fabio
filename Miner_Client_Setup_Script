@@ -36,9 +36,12 @@ read btIP
 jq '.this_client.ip="'$pbIP'"' configuration.json > temp.json
 rm configuration.json
 jq '.bootstrap_server.ip="'$btIP'"' temp.json > configuration.json
+echo "configuration.json"
 cat configuration.json
 rm temp.json
+cd
 
+echo "create new Wallet"
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
 echo "new Wallet.txt created"
