@@ -48,6 +48,12 @@ read answer
 echo transfer 2000 from RootAccount to this account.
 echo ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
 ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
+echo Please restart Miner
+read restarted
+if [ "$restartet" != "n" ]
+  then echo thank you
+  else echo this will crash...
+fi
 echo "enable staking for new account" 
 ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
 echo "copy Wallet.txt and Commitment.txt to miner folder"
