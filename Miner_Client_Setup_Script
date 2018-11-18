@@ -28,16 +28,29 @@ echo " "
 
 echo "Creating Account for this machines Miner"
 cd home/ubuntu/BAZO-Scripts-Fabio
+git pull origin
 cp RootAccountWallet.txt home/ubunut/go/src/github.com/Bazo-blockchain/bazo-client
+cp RootAccountCommitment.txt home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner
 cd home/ubunut/go/src/github.com/Bazo-blockchain/bazo-client
 cat RootAccountWallet.txt
+cd home/ubunut/go/src/github.com/Bazo-blockchain/bazo-client
 ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
 echo "new Wallet.txt created"
 cat Wallet.txt
-echo "please insert transaction count for root account:"
+echo "please insert transaction count for root account: [number]"
 read answer
-echo Ihre Antwort war: $answer
-echo "copy database to miner"
-cd 
+echo transfer 2000 from RootAccount to this account.
+echo ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
+./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
+echo "enable staking for new account" 
+./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
+echo "copy Wallet.txt and Commitment.txt" to miner folder
+cp Wallet.txt home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner
+cp Commitment.txt home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner
+cd
+echo "copy database to miner folder"
 cd home/ubuntu/BAZO-Scripts-Fabio
 cp RootAccountStore.db home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner/Store.db
+echo " "
+
+echo "You can start this miner with: bazo-miner start --database Store.db --address echo $(curl https://ipinfo.io/ip):8000 --bootstrap 35.176.39.251:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt"
