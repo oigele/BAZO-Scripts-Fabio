@@ -22,10 +22,10 @@ echo " "
 echo "Creating Account for this machines Miner"
 cd /home/ubuntu/BAZO-Scripts-Fabio
 git pull origin
-cp RootAccountWallet.txt /home/ubuntu/go/src/github.com/Bazo-blockchain/bazo-client
-cp RootAccountCommitment.txt /home/ubuntu/go/src/github.com/Bazo-blockchain/bazo-miner
-cd /home/ubuntu/go/src/github.com/Bazo-blockchain/bazo-client
-cat RootAccountWallet.txt
+cp RootAccountWallet.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
+cp RootAccountWallet.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+cp RootAccountCommitment.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 echo this machines public ip:
@@ -36,27 +36,63 @@ read btIP
 jq '.this_client.ip="'$pbIP'"' configuration.json > temp.json
 rm configuration.json
 jq '.bootstrap_server.ip="'$btIP'"' temp.json > configuration.json
+echo "configuration.json"
 cat configuration.json
 rm temp.json
-
-cd /home/ubunut/go/src/github.com/Bazo-blockchain/bazo-client
+cd
+cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
+
+echo " "
+echo "Account Transaction [accTx] verified? if not restart miner: [y/n]"
+read restarted
+if [ "$restarted" != "n" ]
+  then ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
+  else echo this will crash... Better abort mission now!!!
+fi
 echo "new Wallet.txt created"
-cat Wallet.txt
-echo "(maybe restart Miner). Please insert transaction count for root account: [number]"
+
+echo " "
+echo "Please insert transaction count [txcount] for root account (same as in block mentioned): [number]"
 read answer
 echo transfer 2000 from RootAccount to this account.
 echo ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
 ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
+
+echo " "
+echo "Restart Miner if Sig1 invalid error occurs."
+echo Miner restarted: [y/n]
+read restarted
+if [ "$restarted" != "n" ]
+  then ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
+  else echo this will crash... Better abort mission now!!!
+fi
+
+echo " "
+echo "Funds transaction successfully verified: [y/n]"
+read restarted
+if [ "$restartet" != "n" ]
+  then echo "perfect :-)"
+  else echo this will crash... Better abort mission now!!!
+fi
 echo "enable staking for new account" 
+echo ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
 ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
-echo "copy Wallet.txt and Commitment.txt to miner folder"
-cp Wallet.txt /home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner
-cp Commitment.txt /home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner
+
+echo " "
+echo "If transaction could not be verified restart miner and insert [y]: [y/n]"
+read restarted
+if [ "$restartet" != "n" ]
+  then ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
+  else echo this will crash... Better abort mission now!!!
+fi
+cp Wallet.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+cp Commitment.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 cd
 echo "copy database to miner folder"
 cd /home/ubuntu/BAZO-Scripts-Fabio
-cp RootAccountStore.db home/ubunut/go/src/github.com/Bazo-blockchain/bazo-miner/Store.db
+cp RootAccountStore.db /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
 echo " "
 
-echo "You can start this miner with: bazo-miner start --database Store.db --address echo $(curl https://ipinfo.io/ip):8000 --bootstrap 35.176.39.251:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt"
+echo "You can start this miner with:"
+echo ./bazo-miner start --database Store.db --address echo $(curl https://ipinfo.io/ip):8000 --bootstrap $btIP:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt"
