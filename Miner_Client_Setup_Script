@@ -48,7 +48,7 @@ echo "Account Transaction [accTx] verified? if yes insert [y], if not restart mi
 read restarted
 if [ "$restarted" = "n" ]
   then ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
-  else Perfect!
+  else "Perfect!"
 fi
 
 echo " "
@@ -63,15 +63,15 @@ echo "Restart Miner if Sig1 invalid error occurs. After Miner restarted insert [
 read restarted
 if [ "$restarted" == "y" ]
   then ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
-  else echo this will crash... Better abort mission now!!!
+  else echo "this will crash... Better abort mission now!!!"
 fi
 
 echo " "
 echo "Funds transaction successfully verified: [y/n]"
 read restarted
 if [ "$restarted" = "y" ]
-  then echo "perfect!"
-  else echo this will crash... Better abort mission now!!!
+  then echo "Perfect!"
+  else echo "this will crash... Better abort mission now!!!"
 fi
 echo " "
 echo "enable staking for new account" 
@@ -83,7 +83,7 @@ echo "Is new account staking now? if yes [y], if it is not staking, restart mine
 read restarted
 if [ "$restarted" = "n" ]
   then ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
-  else Perfect!
+  else "Perfect!"
 fi
 cp Wallet.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 cp Commitment.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
