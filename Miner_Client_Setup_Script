@@ -46,7 +46,7 @@ cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 echo " "
 echo "Account Transaction [accTx] verified? if not restart miner: [y/n]"
 read restarted
-if [ "$restarted" != "n" ]
+if [ "$restarted" == "y" ]
   then ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
   else echo this will crash... Better abort mission now!!!
 fi
@@ -63,7 +63,7 @@ echo " "
 echo "Restart Miner if Sig1 invalid error occurs."
 echo Miner restarted: [y/n]
 read restarted
-if [ "$restarted" != "n" ]
+if [ "$restarted" == "y" ]
   then ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
   else echo this will crash... Better abort mission now!!!
 fi
@@ -80,9 +80,9 @@ echo ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.tx
 ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
 
 echo " "
-echo "If transaction could not be verified restart miner and insert [y]: [y/n]"
+echo "If new account is not stacking, restart miner and insert [y]: [y/n]"
 read restarted
-if [ "$restartet" != "n" ]
+if [ "$restartet" == "y" ]
   then ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
   else echo this will crash... Better abort mission now!!!
 fi
@@ -95,4 +95,4 @@ cp RootAccountStore.db /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 echo " "
 
 echo "You can start this miner with:"
-echo ./bazo-miner start --database Store.db --address echo $(curl https://ipinfo.io/ip):8000 --bootstrap $btIP:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt"
+echo "./bazo-miner start --database Store.db --address echo $(curl https://ipinfo.io/ip):8000 --bootstrap $btIP:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt"
