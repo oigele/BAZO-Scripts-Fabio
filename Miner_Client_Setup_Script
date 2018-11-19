@@ -40,13 +40,11 @@ echo "configuration.json"
 cat configuration.json
 rm temp.json
 cd
-
-echo "create new Wallet"
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
 
 echo " "
-echo "Transaction verified, if not restart miner: [y/n]"
+echo "Account Transaction [accTx] verified? if not restart miner: [y/n]"
 read restarted
 if [ "$restarted" != "n" ]
   then ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
@@ -55,7 +53,7 @@ fi
 echo "new Wallet.txt created"
 
 echo " "
-echo "Please insert transaction count for root account (same as in block mentioned): [number]"
+echo "Please insert transaction count [txcount] for root account (same as in block mentioned): [number]"
 read answer
 echo transfer 2000 from RootAccount to this account.
 echo ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
