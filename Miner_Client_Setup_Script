@@ -44,13 +44,12 @@ cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
 
 echo " "
-echo "Account Transaction [accTx] verified? if not restart miner and insert [n]: [y/n]"
+echo "Account Transaction [accTx] verified? if yes insert [y], if not restart miner and insert [n]: [y/n]"
 read restarted
-if [ "$restarted" == "n" ]
+if [ "$restarted" = "n" ]
   then ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
-  else echo this will crash... Better abort mission now!!!
+  else Perfect!
 fi
-echo "new Wallet.txt created"
 
 echo " "
 echo "Please insert transaction count [txcount] for root account (same as in block mentioned): [number]"
@@ -60,7 +59,7 @@ echo ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount 
 ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
 
 echo " "
-echo "Restart Miner if Sig1 invalid error occurs. after Miner restarted insert [y], When error does not occur inset [n]:"
+echo "Restart Miner if Sig1 invalid error occurs. After Miner restarted insert [y], When error does not occur insert [n]:"
 read restarted
 if [ "$restarted" == "y" ]
   then ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
@@ -70,20 +69,21 @@ fi
 echo " "
 echo "Funds transaction successfully verified: [y/n]"
 read restarted
-if [ "$restartet" != "n" ]
-  then echo "perfect :-)"
+if [ "$restarted" = "y" ]
+  then echo "perfect!"
   else echo this will crash... Better abort mission now!!!
 fi
+echo " "
 echo "enable staking for new account" 
 echo ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
 ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
 
 echo " "
-echo "If new account is NOT stacking, restart miner and insert [y]: [y/n]"
+echo "Is new account staking now? if yes [y], if it is not staking, restart miner and insert [n] : [y/n]"
 read restarted
-if [ "$restartet" == "y" ]
+if [ "$restarted" = "n" ]
   then ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
-  else echo this will crash... Better abort mission now!!!
+  else Perfect!
 fi
 cp Wallet.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 cp Commitment.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
