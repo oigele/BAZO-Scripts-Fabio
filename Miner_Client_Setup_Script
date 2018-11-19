@@ -93,5 +93,15 @@ cd /home/ubuntu/BAZO-Scripts-Fabio
 cp RootAccountStore.db /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
 echo " "
 
-echo "You can start this miner with:"
-echo "./bazo-miner start --database Store.db --address echo $(pbIP):8000 --bootstrap $btIP:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt"
+echo "Now upload the newest RootAccountStore.db to Githb with the root Miner. When done insert [y]. 
+read github
+if [ "$github" = "y" ]
+  then 
+      cd /home/ubuntu/BAZO-Scripts-Fabio
+      git pull origin
+      cp /home/ubuntu/BAZO-Scripts-Fabio/RootAccountStore.db /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
+      echo "You can start this miner with:"
+      echo "./bazo-miner start --database Store.db --address $(pbIP):8000 --bootstrap $btIP:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt" --confirm
+  else "When starting the miner now, the Acc will not be in state"
+fi
+
