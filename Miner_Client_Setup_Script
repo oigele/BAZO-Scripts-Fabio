@@ -48,7 +48,7 @@ echo "Account Transaction [accTx] verified? if yes insert [y], if not restart mi
 read restarted
 if [ "$restarted" = "n" ]
   then ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
-  else "Perfect!"
+  else echo "Perfect!"
 fi
 
 echo " "
@@ -61,7 +61,7 @@ echo ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount 
 echo " "
 echo "Restart Miner if Sig1 invalid error occurs. After Miner restarted insert [y], When error does not occur insert [n]:"
 read restarted
-if [ "$restarted" == "y" ]
+if [ "$restarted" = "y" ]
   then ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
   else echo "this will crash... Better abort mission now!!!"
 fi
@@ -93,7 +93,7 @@ cd /home/ubuntu/BAZO-Scripts-Fabio
 cp RootAccountStore.db /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
 echo " "
 
-echo "Now upload the newest RootAccountStore.db to Githb with the root Miner. When done insert [y]. 
+echo "Now upload the newest RootAccountStore.db to Githb with the root Miner. When done insert [y]:"
 read github
 if [ "$github" = "y" ]
   then 
@@ -101,7 +101,7 @@ if [ "$github" = "y" ]
       git pull origin
       cp /home/ubuntu/BAZO-Scripts-Fabio/RootAccountStore.db /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
       echo "You can start this miner with:"
-      echo "./bazo-miner start --database Store.db --address $(pbIP):8000 --bootstrap $btIP:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt" --confirm
+      echo "./bazo-miner start --database Store.db --address $(pbIP):8000 --bootstrap $btIP:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt --confirm"
   else "When starting the miner now, the Acc will not be in state"
 fi
 
