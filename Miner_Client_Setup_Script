@@ -94,4 +94,4 @@ cp RootAccountStore.db /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 echo " "
 
 echo "You can start this miner with:"
-echo "./bazo-miner start --database Store.db --address echo $(curl https://ipinfo.io/ip):8000 --bootstrap $btIP:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt"
+echo "./bazo-miner start --database Store.db --address echo $(pbIP):8000 --bootstrap $btIP:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt"
