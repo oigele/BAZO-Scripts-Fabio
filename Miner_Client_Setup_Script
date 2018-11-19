@@ -44,9 +44,9 @@ cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
 
 echo " "
-echo "Account Transaction [accTx] verified? if not restart miner: [y/n]"
+echo "Account Transaction [accTx] verified? if not restart miner and insert [n]: [y/n]"
 read restarted
-if [ "$restarted" == "y" ]
+if [ "$restarted" == "n" ]
   then ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt 
   else echo this will crash... Better abort mission now!!!
 fi
@@ -60,8 +60,7 @@ echo ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount 
 ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
 
 echo " "
-echo "Restart Miner if Sig1 invalid error occurs."
-echo Miner restarted: [y/n]
+echo "Restart Miner if Sig1 invalid error occurs. after Miner restarted insert [y], When error does not occur inset [n]:"
 read restarted
 if [ "$restarted" == "y" ]
   then ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
@@ -80,7 +79,7 @@ echo ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.tx
 ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
 
 echo " "
-echo "If new account is not stacking, restart miner and insert [y]: [y/n]"
+echo "If new account is NOT stacking, restart miner and insert [y]: [y/n]"
 read restarted
 if [ "$restartet" == "y" ]
   then ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
