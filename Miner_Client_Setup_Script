@@ -32,7 +32,7 @@ cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 echo this machines public ip:
 pbIP=$(curl https://ipinfo.io/ip)
-echo pbIP
+echo $pbIP
 echo enter bootstrap ip: [number]
 read btIP
 jq '.this_client.ip="'$pbIP'"' configuration.json > temp.json
