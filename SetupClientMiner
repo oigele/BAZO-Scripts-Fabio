@@ -38,10 +38,10 @@ echo "Client with branch $clientbranch built."
 
 echo " "
 ls /home/ubuntu/BAZO-Scripts-Fabio
-echo "Check if RootWallet.txt and RootCommitment.txt are in th list above. If not, copy them into the Bazo-Scripts-Fabio folder and insert [n]. [y/n]"
+echo "Check if 'RootWallet.txt' and 'RootCommitment.txt' are in the list above. If not, copy them into the Bazo-Scripts-Fabio folder and insert [n]. [y/n]"
 read selection
 if [ "$selection" = "y" ]
-  then echo "Files will be copied to the correct folder"
+  then echo "Files will be copied to the correct miner and client"
   else echo "thanks for coping them"
 fi
 
@@ -67,6 +67,7 @@ cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 echo " "
 echo "Create New BAZO-Account with: "
 echo "./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt"
+echo " "
 ./bazo-client account create --rootwallet RootAccountWallet.txt --wallet Wallet.txt
 
 echo " "
@@ -82,6 +83,7 @@ echo "Please insert transaction count TxCount for root account (same as in block
 read txCount
 echo "Transfer 3000 funds from Root account to new created account with:"
 echo "./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 3000 --multisig RootAccountWallet.txt"
+echo " "
 ./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 3000 --multisig RootAccountWallet.txt
 
 echo " "
@@ -103,6 +105,7 @@ fi
 echo " "
 echo "Enable staking for new account with:" 
 echo "./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt"
+echo " "
 ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
 
 echo " "
