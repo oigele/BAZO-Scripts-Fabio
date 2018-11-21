@@ -7,7 +7,7 @@ cd
 go get github.com/bazo-blockchain/bazo-client
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 git pull 
-git checkout origin/aduno_copy-cherry-picks
+git checkout aduno_copy-cherry-picks
 go build
 cd 
 echo "Setup BAZO-Client - Finished"
@@ -15,7 +15,7 @@ echo " "
 
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 git pull 
-git checkout origin/aduno_copy-cherry-picks
+git checkout aduno_copy-cherry-picks
 go build
 echo "Download & build of BAZO-Miner - Finished"
 echo " "
