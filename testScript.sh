@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo "please insert transaction count for root account:"
-read answer
-echo Ihre Antwort war: $answer
-echo "copy database to miner"
+pbIP=$(curl https://ipinfo.io/ip)
+btIP=123.123.123.123
+echo "./bazo-miner start --database Store.db --address $pbIP:8000 --bootstrap $btIP:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt --confirm" 
