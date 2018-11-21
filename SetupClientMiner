@@ -41,8 +41,8 @@ ls /home/ubuntu/BAZO-Scripts-Fabio
 echo "Check if RootWallet.txt and RootCommitment.txt are in th list above. If not, copy them into the Bazo-Scripts-Fabio folder and insert [n]. [y/n]"
 read selection
 if [ "$selection" = "y" ]
-  then "Files will be copied to the correct folder"
-  else "thanks for coping them"
+  then echo "Files will be copied to the correct folder"
+  else echo "thanks for coping them"
 fi
 
 echo " "
@@ -51,10 +51,11 @@ cp /home/ubuntu/BAZO-Scripts-Fabio/RootWallet.txt /home/ubuntu/go/src/github.com
 cp /home/ubuntu/BAZO-Scripts-Fabio/RootCommitment.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
-echo "This machines public ip:"
 pbIP=$(curl https://ipinfo.io/ip)
+echo " "
+echo "This machines public IP:"
 echo $pbIP
-echo enter bootstrap ip: [number]
+echo "enter bootstrap IP: [number]"
 read btIP
 jq '.this_client.ip="'$pbIP'"' configuration.json > temp.json
 rm configuration.json
@@ -80,8 +81,8 @@ echo " "
 echo "Please insert transaction count TxCount for root account (same as in block mentioned): [number]"
 read txCount
 echo "Transfer 3000 funds from Root account to new created account with:"
-echo "./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt"
-./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 2000 --multisig RootAccountWallet.txt
+echo "./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 3000 --multisig RootAccountWallet.txt"
+./bazo-client funds --from RootAccountWallet.txt --to Wallet.txt --txcount $answer --amount 3000 --multisig RootAccountWallet.txt
 
 echo " "
 echo "Does Sig1 invalid error occure? YES, restart miner and insert [y], NO insert [n]:"
@@ -95,7 +96,7 @@ echo " "
 echo "Funds transaction successfully verified: [y/n]"
 read restarted
 if [ "$restarted" = "y" ]
-  then echo "Good. We will enabel staking for the new account next."
+  then echo "Good. We will enable staking for the new account next."
   else echo "this will crash... Better abort mission now!!!"
 fi
 
@@ -109,12 +110,12 @@ echo "Is new account staking now? YES insert [y], NO restart miner and insert [n
 read restarted
 if [ "$restarted" = "n" ]
   then ./bazo-client staking enable --wallet Wallet.txt --commitment Commitment.txt
-  else "Good. Nearly finished"
+  else echo "Good. Nearly finished"
 fi
 cp Wallet.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 cp Commitment.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 
 echo " "
 echo "Bazo Miner can be started in the Miner folder with: "
-echo "./bazo-miner start --database Store.db --address $(pubIP):8000 --bootstrap $btIP:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt --confirm"
+echo "./bazo-miner start --database Store.db --address $pbIP:8000 --bootstrap $btIP:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt --confirm"
 
