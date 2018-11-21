@@ -1,0 +1,41 @@
+#!/bin/bash
+
+echo "Script for Downloading and preparing BAZO Client and Bazo Miner"
+echo "Downloading the Errors Package with: go get github.com/pkg/errors"
+go get github.com/pkg/errors
+echo "Downloading the Client and Miner Package with: go get github.com/bazo-blockchain/bazo-client"
+go get github.com/bazo-blockchain/bazo-client
+
+echo " "
+cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+echo "All Branches on Miner:"
+git branch -a
+echo "Insert Bazo Github Branch for Miner"
+read branch 
+echo "git checkout $branch ? [y/n]"
+read selection
+if [ "$selection" = "y" ]
+  then git checkout $branch
+  else exit 1
+fi
+go build 
+echo "Miner with branch $branch built."
+
+echo " "
+cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
+echo "All Branches on Client:"
+git branch -a
+echo "Insert Bazo Github Branch for Client"
+read branch 
+echo "git checkout $branch ? [y/n]"
+read selection
+if [ "$selection" = "y" ]
+  then git checkout $branch
+  else exit 1
+fi
+go build$
+echo "Client with branch $branch built."
+
+
+
+
