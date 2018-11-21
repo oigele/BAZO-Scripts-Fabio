@@ -4,6 +4,7 @@ echo "Automated script for downloading and preparing GO"
 echo "Setup BAZO-Client - Started"
 echo "  Downloading BAZO-Client from Github"
 cd 
+go get github.com/pkg/errors
 go get github.com/bazo-blockchain/bazo-client
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 git pull 
@@ -23,9 +24,9 @@ echo " "
 echo "Creating Account for this machines Miner"
 cd /home/ubuntu/BAZO-Scripts-Fabio
 git pull origin
-cp RootAccountWallet.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
-cp RootAccountWallet.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
-cp RootAccountCommitment.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+cp RootWallet.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
+cp RootWallet.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+cp RootCommitment.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
@@ -89,10 +90,6 @@ fi
 cp Wallet.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 cp Commitment.txt /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
 cd
-echo "copy database to miner folder"
-cd /home/ubuntu/BAZO-Scripts-Fabio
-cp RootAccountStore.db /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
 echo " "
-
 echo "./bazo-miner start --database Store.db --address $(pbIP):8000 --bootstrap $btIP:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt --confirm"
 
