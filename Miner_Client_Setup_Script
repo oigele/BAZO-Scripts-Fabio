@@ -6,6 +6,8 @@ echo "  Downloading BAZO-Client from Github"
 cd 
 go get github.com/bazo-blockchain/bazo-client
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
+git pull 
+git checkout origin/aduno_copy-cherry-picks
 go build
 cd 
 echo "Setup BAZO-Client - Finished"
