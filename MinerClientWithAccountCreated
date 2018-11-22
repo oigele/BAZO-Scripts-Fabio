@@ -93,7 +93,7 @@ if [ "$selection" = "y" ]
 fi
 
 echo " "
-echo "List of Commitments:"
+echo "List of BAZO-Scripts-Fabio:"
 cd /home/ubuntu/BAZO-Scripts-Fabio
 ls
 echo " "
