@@ -55,7 +55,7 @@ rm temp.json
 rm temp2.json
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 
-echo "List of Addresses:"
+echo "List of Wallets:"
 cd /home/ubuntu/BAZO-Scripts-Fabio/Wallets
 ls
 echo " "
@@ -70,5 +70,19 @@ if [ "$selection" = "y" ]
 fi
 
 echo " "
+echo "List of Commitments:"
+cd /home/ubuntu/BAZO-Scripts-Fabio/Wallets
+ls
+echo " "
+echo "Is there a Commitment with the name of this VM's location? [y/n]"
+read selection
+if [ "$selection" = "y" ]
+  then cp -r /home/ubuntu/BAZO-Scripts-Fabio/Wallets /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+       echo "Commitment folder is successfully cpoied to the miner and client"
+  else git pull origin
+       echo "Copy Commitment folder manually to the miner folder"
+fi
+
+echo " "
 echo "Bazo Miner can be started in the Miner folder with: "
-echo "./bazo-miner start --database Store.db --address $pbIP:8000 --bootstrap $btIP:8000 --wallet Wallet.txt --commitment Commitment.txt --multisig RootAccountWallet.txt --rootwallet RootAccountWallet.txt --rootcommitment RootAccountCommitment.txt --confirm"
+echo "./bazo-miner start --database Store.db --address $pbIP:8000 --bootstrap $btIP:8000 --wallet Wallets/Wallet---.txt --commitment Commitments/Commitment---.txt --multisig Wallets/WalletAWSLondon.txt --rootwallet Wallets/WalletAWSLondon.txt --rootcommitment Commitments/CommitmentAWSLondon.txt --confirm"
