@@ -61,8 +61,8 @@ ls
 echo "Is there a Wallet with the name of this VM's location? [y/n]
 read selection
 if [ "$selection" = "y" ]
-  then cp -r /home/ubuntu/BAZO-Scripts-Fabio/Addresses /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
-       cp -r /home/ubuntu/BAZO-Scripts-Fabio/Addresses /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
+  then cp -r /home/ubuntu/BAZO-Scripts-Fabio/Wallets /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+       cp -r /home/ubuntu/BAZO-Scripts-Fabio/Wallets /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
   else git pull origin
        echo "copy Addresses folder manually to the client and miner folder"
 fi
