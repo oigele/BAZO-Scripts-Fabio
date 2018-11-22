@@ -1,6 +1,14 @@
 #!/bin/bash
 
-echo "Script for Downloading and preparing BAZO Client and Bazo Miner when Account is already created."
+echo " "
+echo "The following script is written to help you setting up a Bazo Miner & Client when the new account already exists."
+echo "Plese insert the name of the Cloude Provider the VM runs: [AWS/Azure]"
+read provider
+echo "Plese insert the name of the Location where you set up this VM:"
+read location
+echo "We are now setting up a VM in Location $location running on $provider"
+
+echo " "
 echo "Downloading the Errors Package with: go get github.com/pkg/errors"
 go get github.com/pkg/errors
 echo "Downloading the Client and Miner Package with: go get github.com/bazo-blockchain/bazo-client"
@@ -59,7 +67,7 @@ echo "List of Wallets:"
 cd /home/ubuntu/BAZO-Scripts-Fabio/Wallets
 ls
 echo " "
-echo "Is there a Wallet with the name of this VM's location? [y/n]"
+echo "Is there a Wallet with the Wallet$provider$location.txt on the list? [y/n]"
 read selection
 if [ "$selection" = "y" ]
   then cp -r /home/ubuntu/BAZO-Scripts-Fabio/Wallets /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
@@ -71,10 +79,10 @@ fi
 
 echo " "
 echo "List of Commitments:"
-cd /home/ubuntu/BAZO-Scripts-Fabio/Wallets
+cd /home/ubuntu/BAZO-Scripts-Fabio/Commitments
 ls
 echo " "
-echo "Is there a Commitment with the name of this VM's location? [y/n]"
+echo "Is there a Commitment with the name Commitment$provider$location.txt on the list above? [y/n]"
 read selection
 if [ "$selection" = "y" ]
   then cp -r /home/ubuntu/BAZO-Scripts-Fabio/Wallets /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
@@ -84,5 +92,20 @@ if [ "$selection" = "y" ]
 fi
 
 echo " "
+echo "List of Commitments:"
+cd /home/ubuntu/BAZO-Scripts-Fabio
+ls
+echo " "
+echo "Is there a file with the name StoreAWSLondon.db? [y/n]"
+read selection
+if [ "$selection" = "y" ]
+  then cp /home/ubuntu/BAZO-Scripts-Fabio/StoreAWSLondon /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+       echo "Commitment folder is successfully cpoied to the miner and client"
+  else git pull origin
+       echo "Copy the Root Store (teh database of teh VM in London) manually to the miner folder"
+fi
+
+echo " "
 echo "Bazo Miner can be started in the Miner folder with: "
-echo "./bazo-miner start --database Store.db --address $pbIP:8000 --bootstrap $btIP:8000 --wallet Wallets/Wallet---.txt --commitment Commitments/Commitment---.txt --multisig Wallets/WalletAWSLondon.txt --rootwallet Wallets/WalletAWSLondon.txt --rootcommitment Commitments/CommitmentAWSLondon.txt --confirm"
+echo "./bazo-miner start --database Store.db --address $pbIP:8000 --bootstrap $btIP:8000 --wallet Wallets/Wallet$prvider$location.txt --commitment Commitments/Commitment$provider$location.txt --multisig Wallets/WalletAWSLondon.txt --rootwallet Wallets/WalletAWSLondon.txt --rootcommitment Commitments/CommitmentAWSLondon.txt --confirm"
+echo " "
