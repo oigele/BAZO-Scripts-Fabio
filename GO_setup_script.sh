@@ -37,6 +37,7 @@ curl https://ipinfo.io/ip
 echo "alias pubIP='curl https://ipinfo.io/ip'" >> ~/.bashrc
 source ~/.bashrc
 cd
+echo " "
 
 echo "download jq for json replacement"
 sudo apt install jq
