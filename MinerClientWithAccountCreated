@@ -46,6 +46,7 @@ fi
 go build
 echo "Client with branch $clientbranch built."
 
+echo " "
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 pbIP=$(curl https://ipinfo.io/ip)
 echo " "
