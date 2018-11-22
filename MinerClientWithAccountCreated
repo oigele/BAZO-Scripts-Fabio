@@ -56,7 +56,7 @@ rm temp2.json
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 
 echo "List of Addresses:"
-cd /home/ubuntu/BAZO-Scripts-Fabio/Addresses
+cd /home/ubuntu/BAZO-Scripts-Fabio/Wallets
 ls
 echo "Is there a Wallet with the name of this VM's location? [y/n]
 read selection
