@@ -102,9 +102,9 @@ read selection
 if [ "$selection" = "y" ]
   then touch /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
        cp /home/ubuntu/BAZO-Scripts-Fabio/StoreAWSLondon.db /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
-       echo "Store.db folder is successfully cpoied to the miner and client"
+       echo "Store.db folder is successfully copied to the miner folder"
   else git pull origin
-       echo "Copy the Root Store (teh database of teh VM in London) manually to the miner folder"
+       echo "Copy the Root Store (the database of teh VM in London) manually to the miner folder"
 fi
 
 echo " "
