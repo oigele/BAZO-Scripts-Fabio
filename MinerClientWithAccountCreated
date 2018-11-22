@@ -86,8 +86,8 @@ echo " "
 echo "Is there a Commitment with the name Commitment$provider$location.txt on the list above? [y/n]"
 read selection
 if [ "$selection" = "y" ]
-  then cp -r /home/ubuntu/BAZO-Scripts-Fabio/Wallets /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
-       echo "Commitment folder is successfully cpoied to the miner and client"
+  then cp -r /home/ubuntu/BAZO-Scripts-Fabio/Commitments /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+       echo "Commitment folder is successfully copied to the miner."
   else git pull origin
        echo "Copy Commitment folder manually to the miner folder"
 fi
@@ -100,8 +100,9 @@ echo " "
 echo "Is there a file with the name StoreAWSLondon.db? [y/n]"
 read selection
 if [ "$selection" = "y" ]
-  then cp /home/ubuntu/BAZO-Scripts-Fabio/StoreAWSLondon /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
-       echo "Commitment folder is successfully cpoied to the miner and client"
+  then touch /home/ubuntu/BAZO-Scripts-Fabio/StoreAWSLondon /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
+       cp /home/ubuntu/BAZO-Scripts-Fabio/StoreAWSLondon /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
+       echo "Store.db folder is successfully cpoied to the miner and client"
   else git pull origin
        echo "Copy the Root Store (teh database of teh VM in London) manually to the miner folder"
 fi
