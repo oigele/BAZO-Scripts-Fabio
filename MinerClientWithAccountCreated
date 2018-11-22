@@ -18,6 +18,7 @@ git pull origin
 
 echo " "
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+git pull
 echo "All Branches on Miner:"
 git branch -a
 echo "Insert Bazo Github Branch for Miner"
@@ -33,6 +34,7 @@ echo "Miner with branch $minerbranch  built."
 
 echo " "
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
+git pull
 echo "All Branches on Client:"
 git branch -a
 echo "Insert Bazo Github Branch for Client"
