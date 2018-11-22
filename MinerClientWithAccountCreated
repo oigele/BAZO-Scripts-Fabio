@@ -100,8 +100,8 @@ echo " "
 echo "Is there a file with the name StoreAWSLondon.db? [y/n]"
 read selection
 if [ "$selection" = "y" ]
-  then touch /home/ubuntu/BAZO-Scripts-Fabio/StoreAWSLondon /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
-       cp /home/ubuntu/BAZO-Scripts-Fabio/StoreAWSLondon /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
+  then touch /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
+       cp /home/ubuntu/BAZO-Scripts-Fabio/StoreAWSLondon.db /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
        echo "Store.db folder is successfully cpoied to the miner and client"
   else git pull origin
        echo "Copy the Root Store (teh database of teh VM in London) manually to the miner folder"
