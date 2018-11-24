@@ -18,6 +18,7 @@ git pull origin
 
 echo " "
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+git pull
 echo "All Branches on Miner:"
 git branch -a
 echo "Insert Bazo Github Branch for Miner"
@@ -33,6 +34,7 @@ echo "Miner with branch $minerbranch  built."
 
 echo " "
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
+git pull
 echo "All Branches on Client:"
 git branch -a
 echo "Insert Bazo Github Branch for Client"
@@ -46,6 +48,7 @@ fi
 go build
 echo "Client with branch $clientbranch built."
 
+echo " "
 cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
 pbIP=$(curl https://ipinfo.io/ip)
 echo " "
@@ -85,24 +88,25 @@ echo " "
 echo "Is there a Commitment with the name Commitment$provider$location.txt on the list above? [y/n]"
 read selection
 if [ "$selection" = "y" ]
-  then cp -r /home/ubuntu/BAZO-Scripts-Fabio/Wallets /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
-       echo "Commitment folder is successfully cpoied to the miner and client"
+  then cp -r /home/ubuntu/BAZO-Scripts-Fabio/Commitments /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+       echo "Commitment folder is successfully copied to the miner."
   else git pull origin
        echo "Copy Commitment folder manually to the miner folder"
 fi
 
 echo " "
-echo "List of Commitments:"
+echo "List of BAZO-Scripts-Fabio:"
 cd /home/ubuntu/BAZO-Scripts-Fabio
 ls
 echo " "
 echo "Is there a file with the name StoreAWSLondon.db? [y/n]"
 read selection
 if [ "$selection" = "y" ]
-  then cp /home/ubuntu/BAZO-Scripts-Fabio/StoreAWSLondon /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
-       echo "Commitment folder is successfully cpoied to the miner and client"
+  then touch /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
+       cp /home/ubuntu/BAZO-Scripts-Fabio/StoreAWSLondon.db /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
+       echo "Store.db folder is successfully copied to the miner folder"
   else git pull origin
-       echo "Copy the Root Store (teh database of teh VM in London) manually to the miner folder"
+       echo "Copy the Root Store (the database of teh VM in London) manually to the miner folder"
 fi
 
 echo " "
