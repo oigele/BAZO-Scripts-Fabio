@@ -1,0 +1,1815 @@
+INFO: 2018/12/04 16:27:22.803484 server.go:154: Adding a new miner: 52.56.39.190:8000
+INFO: 2018/12/04 16:27:34.354948 state.go:184: Validated block with height 0
+INFO: 2018/12/04 16:27:34.355060 blockchain.go:120: Blockchain size is: 510 bytes
+INFO: 2018/12/04 16:27:34.355518 state.go:184: Validated block with height 1
+INFO: 2018/12/04 16:27:34.355606 blockchain.go:120: Blockchain size is: 1020 bytes
+INFO: 2018/12/04 16:27:34.356066 state.go:184: Validated block with height 2
+INFO: 2018/12/04 16:27:34.356122 blockchain.go:120: Blockchain size is: 1530 bytes
+INFO: 2018/12/04 16:27:34.356691 state.go:184: Validated block with height 3
+INFO: 2018/12/04 16:27:34.356747 blockchain.go:120: Blockchain size is: 2040 bytes
+INFO: 2018/12/04 16:27:34.357416 state.go:184: Validated block with height 4
+INFO: 2018/12/04 16:27:34.357497 blockchain.go:120: Blockchain size is: 2550 bytes
+INFO: 2018/12/04 16:27:34.642022 state.go:184: Validated block with height 5
+INFO: 2018/12/04 16:27:34.642176 blockchain.go:120: Blockchain size is: 3124 bytes
+INFO: 2018/12/04 16:27:34.926694 state.go:184: Validated block with height 6
+INFO: 2018/12/04 16:27:34.926876 blockchain.go:120: Blockchain size is: 3698 bytes
+INFO: 2018/12/04 16:27:34.927733 state.go:184: Validated block with height 7
+INFO: 2018/12/04 16:27:34.927841 blockchain.go:120: Blockchain size is: 4208 bytes
+INFO: 2018/12/04 16:27:34.928630 state.go:184: Validated block with height 8
+INFO: 2018/12/04 16:27:34.928713 blockchain.go:120: Blockchain size is: 4718 bytes
+INFO: 2018/12/04 16:27:34.929512 state.go:184: Validated block with height 9
+INFO: 2018/12/04 16:27:34.929612 blockchain.go:120: Blockchain size is: 5228 bytes
+INFO: 2018/12/04 16:27:35.072567 state.go:184: Validated block with height 10
+INFO: 2018/12/04 16:27:35.072738 blockchain.go:120: Blockchain size is: 5770 bytes
+INFO: 2018/12/04 16:27:35.215544 state.go:184: Validated block with height 11
+INFO: 2018/12/04 16:27:35.215736 blockchain.go:120: Blockchain size is: 6312 bytes
+INFO: 2018/12/04 16:27:35.500553 state.go:184: Validated block with height 12
+INFO: 2018/12/04 16:27:35.500711 blockchain.go:120: Blockchain size is: 6886 bytes
+INFO: 2018/12/04 16:27:35.501555 state.go:184: Validated block with height 13
+INFO: 2018/12/04 16:27:35.501644 blockchain.go:120: Blockchain size is: 7396 bytes
+INFO: 2018/12/04 16:27:35.502437 state.go:184: Validated block with height 14
+INFO: 2018/12/04 16:27:35.502541 blockchain.go:120: Blockchain size is: 7906 bytes
+INFO: 2018/12/04 16:27:35.644914 state.go:311: Config parameters changed. New configuration: 
+Block Hash: faa8142e6c3c81ae
+Block size: 5000000
+Difficulty interval: 20
+Fee minimum: 1
+Block interval: 60
+Block reward: 0
+Staking minimum: 1000
+Waiting minimum: 0
+Acceptanced time difference: 60
+Slashing window size: 100
+Slash reward: 2
+Num of previous proofs included in PoS: 5
+INFO: 2018/12/04 16:27:35.645498 state.go:184: Validated block with height 15
+INFO: 2018/12/04 16:27:35.645549 blockchain.go:120: Blockchain size is: 8448 bytes
+INFO: 2018/12/04 16:27:35.646368 state.go:184: Validated block with height 16
+INFO: 2018/12/04 16:27:35.646417 blockchain.go:120: Blockchain size is: 8958 bytes
+INFO: 2018/12/04 16:27:35.647209 state.go:184: Validated block with height 17
+INFO: 2018/12/04 16:27:35.647274 blockchain.go:120: Blockchain size is: 9468 bytes
+INFO: 2018/12/04 16:27:35.648114 state.go:184: Validated block with height 18
+INFO: 2018/12/04 16:27:35.648159 blockchain.go:120: Blockchain size is: 9978 bytes
+INFO: 2018/12/04 16:27:35.648930 state.go:184: Validated block with height 19
+INFO: 2018/12/04 16:27:35.648973 blockchain.go:120: Blockchain size is: 10488 bytes
+INFO: 2018/12/04 16:27:35.791408 state.go:311: Config parameters changed. New configuration: 
+Block Hash: ef9898d1c2de34fd
+Block size: 500000
+Difficulty interval: 20
+Fee minimum: 1
+Block interval: 60
+Block reward: 0
+Staking minimum: 1000
+Waiting minimum: 0
+Acceptanced time difference: 60
+Slashing window size: 100
+Slash reward: 2
+Num of previous proofs included in PoS: 5
+INFO: 2018/12/04 16:27:35.792199 blockchainparam.go:82: Target changed, new target: 15
+INFO: 2018/12/04 16:27:35.792309 state.go:184: Validated block with height 20
+INFO: 2018/12/04 16:27:35.792384 blockchain.go:120: Blockchain size is: 11030 bytes
+INFO: 2018/12/04 16:27:35.793187 state.go:184: Validated block with height 21
+INFO: 2018/12/04 16:27:35.793286 blockchain.go:120: Blockchain size is: 11540 bytes
+INFO: 2018/12/04 16:27:35.935748 state.go:311: Config parameters changed. New configuration: 
+Block Hash: 04cdd685364ffb62
+Block size: 500000
+Difficulty interval: 20
+Fee minimum: 1
+Block interval: 180
+Block reward: 0
+Staking minimum: 1000
+Waiting minimum: 0
+Acceptanced time difference: 60
+Slashing window size: 100
+Slash reward: 2
+Num of previous proofs included in PoS: 5
+INFO: 2018/12/04 16:27:35.936577 state.go:184: Validated block with height 22
+INFO: 2018/12/04 16:27:35.936648 blockchain.go:120: Blockchain size is: 12082 bytes
+INFO: 2018/12/04 16:27:35.937473 state.go:184: Validated block with height 23
+INFO: 2018/12/04 16:27:35.937551 blockchain.go:120: Blockchain size is: 12592 bytes
+INFO: 2018/12/04 16:27:35.938835 state.go:184: Validated block with height 24
+INFO: 2018/12/04 16:27:35.938907 blockchain.go:120: Blockchain size is: 13102 bytes
+INFO: 2018/12/04 16:27:35.939942 state.go:184: Validated block with height 25
+INFO: 2018/12/04 16:27:35.939999 blockchain.go:120: Blockchain size is: 13612 bytes
+INFO: 2018/12/04 16:27:35.940812 state.go:184: Validated block with height 26
+INFO: 2018/12/04 16:27:35.940878 blockchain.go:120: Blockchain size is: 14122 bytes
+INFO: 2018/12/04 16:27:35.941625 state.go:184: Validated block with height 27
+INFO: 2018/12/04 16:27:35.941708 blockchain.go:120: Blockchain size is: 14632 bytes
+INFO: 2018/12/04 16:27:36.084297 state.go:184: Validated block with height 28
+INFO: 2018/12/04 16:27:36.084461 blockchain.go:120: Blockchain size is: 15174 bytes
+INFO: 2018/12/04 16:27:36.085277 state.go:184: Validated block with height 29
+INFO: 2018/12/04 16:27:36.085391 blockchain.go:120: Blockchain size is: 15684 bytes
+INFO: 2018/12/04 16:27:36.086193 state.go:184: Validated block with height 30
+INFO: 2018/12/04 16:27:36.086275 blockchain.go:120: Blockchain size is: 16194 bytes
+INFO: 2018/12/04 16:27:36.087074 state.go:184: Validated block with height 31
+INFO: 2018/12/04 16:27:36.087153 blockchain.go:120: Blockchain size is: 16704 bytes
+INFO: 2018/12/04 16:27:36.229714 state.go:184: Validated block with height 32
+INFO: 2018/12/04 16:27:36.229850 blockchain.go:120: Blockchain size is: 17246 bytes
+INFO: 2018/12/04 16:27:36.230660 state.go:184: Validated block with height 33
+INFO: 2018/12/04 16:27:36.230765 blockchain.go:120: Blockchain size is: 17756 bytes
+INFO: 2018/12/04 16:27:36.231562 state.go:184: Validated block with height 34
+INFO: 2018/12/04 16:27:36.231647 blockchain.go:120: Blockchain size is: 18266 bytes
+INFO: 2018/12/04 16:27:36.232444 state.go:184: Validated block with height 35
+INFO: 2018/12/04 16:27:36.232539 blockchain.go:120: Blockchain size is: 18776 bytes
+INFO: 2018/12/04 16:27:36.233275 state.go:184: Validated block with height 36
+INFO: 2018/12/04 16:27:36.233379 blockchain.go:120: Blockchain size is: 19286 bytes
+INFO: 2018/12/04 16:27:36.234118 state.go:184: Validated block with height 37
+INFO: 2018/12/04 16:27:36.234202 blockchain.go:120: Blockchain size is: 19796 bytes
+INFO: 2018/12/04 16:27:36.235006 state.go:184: Validated block with height 38
+INFO: 2018/12/04 16:27:36.235102 blockchain.go:120: Blockchain size is: 20306 bytes
+INFO: 2018/12/04 16:27:36.235887 state.go:184: Validated block with height 39
+INFO: 2018/12/04 16:27:36.235989 blockchain.go:120: Blockchain size is: 20816 bytes
+INFO: 2018/12/04 16:27:36.236803 blockchainparam.go:82: Target changed, new target: 18
+INFO: 2018/12/04 16:27:36.236903 state.go:184: Validated block with height 40
+INFO: 2018/12/04 16:27:36.236989 blockchain.go:120: Blockchain size is: 21326 bytes
+INFO: 2018/12/04 16:27:36.237753 state.go:184: Validated block with height 41
+INFO: 2018/12/04 16:27:36.237836 blockchain.go:120: Blockchain size is: 21836 bytes
+INFO: 2018/12/04 16:27:36.238523 state.go:184: Validated block with height 42
+INFO: 2018/12/04 16:27:36.238615 blockchain.go:120: Blockchain size is: 22346 bytes
+INFO: 2018/12/04 16:27:36.239388 state.go:184: Validated block with height 43
+INFO: 2018/12/04 16:27:36.239468 blockchain.go:120: Blockchain size is: 22856 bytes
+INFO: 2018/12/04 16:27:36.524592 state.go:184: Validated block with height 44
+INFO: 2018/12/04 16:27:36.524738 blockchain.go:120: Blockchain size is: 23430 bytes
+INFO: 2018/12/04 16:27:36.525570 state.go:184: Validated block with height 45
+INFO: 2018/12/04 16:27:36.525710 blockchain.go:120: Blockchain size is: 23940 bytes
+INFO: 2018/12/04 16:27:36.526467 state.go:184: Validated block with height 46
+INFO: 2018/12/04 16:27:36.526543 blockchain.go:120: Blockchain size is: 24450 bytes
+INFO: 2018/12/04 16:27:36.672960 state.go:184: Validated block with height 47
+INFO: 2018/12/04 16:27:36.673110 blockchain.go:120: Blockchain size is: 24992 bytes
+INFO: 2018/12/04 16:27:36.957131 state.go:184: Validated block with height 48
+INFO: 2018/12/04 16:27:36.957276 blockchain.go:120: Blockchain size is: 25566 bytes
+INFO: 2018/12/04 16:27:36.958090 state.go:184: Validated block with height 49
+INFO: 2018/12/04 16:27:36.958196 blockchain.go:120: Blockchain size is: 26076 bytes
+INFO: 2018/12/04 16:27:36.958977 state.go:184: Validated block with height 50
+INFO: 2018/12/04 16:27:36.959079 blockchain.go:120: Blockchain size is: 26586 bytes
+INFO: 2018/12/04 16:27:36.959847 state.go:184: Validated block with height 51
+INFO: 2018/12/04 16:27:36.959929 blockchain.go:120: Blockchain size is: 27096 bytes
+INFO: 2018/12/04 16:27:37.244556 state.go:184: Validated block with height 52
+INFO: 2018/12/04 16:27:37.244729 blockchain.go:120: Blockchain size is: 27670 bytes
+INFO: 2018/12/04 16:27:37.245533 state.go:184: Validated block with height 53
+INFO: 2018/12/04 16:27:37.245614 blockchain.go:120: Blockchain size is: 28180 bytes
+INFO: 2018/12/04 16:27:37.246390 state.go:184: Validated block with height 54
+INFO: 2018/12/04 16:27:37.246495 blockchain.go:120: Blockchain size is: 28690 bytes
+INFO: 2018/12/04 16:27:37.247784 state.go:184: Validated block with height 55
+INFO: 2018/12/04 16:27:37.247870 blockchain.go:120: Blockchain size is: 29200 bytes
+INFO: 2018/12/04 16:27:37.390986 state.go:184: Validated block with height 56
+INFO: 2018/12/04 16:27:37.391149 blockchain.go:120: Blockchain size is: 29742 bytes
+INFO: 2018/12/04 16:27:37.533882 state.go:184: Validated block with height 57
+INFO: 2018/12/04 16:27:37.534051 blockchain.go:120: Blockchain size is: 30284 bytes
+INFO: 2018/12/04 16:27:37.818389 state.go:184: Validated block with height 58
+INFO: 2018/12/04 16:27:37.818548 blockchain.go:120: Blockchain size is: 30858 bytes
+INFO: 2018/12/04 16:27:37.819398 state.go:184: Validated block with height 59
+INFO: 2018/12/04 16:27:37.819504 blockchain.go:120: Blockchain size is: 31368 bytes
+INFO: 2018/12/04 16:27:37.820317 blockchainparam.go:82: Target changed, new target: 20
+INFO: 2018/12/04 16:27:37.820417 state.go:184: Validated block with height 60
+INFO: 2018/12/04 16:27:37.820488 blockchain.go:120: Blockchain size is: 31878 bytes
+INFO: 2018/12/04 16:27:37.821293 state.go:184: Validated block with height 61
+INFO: 2018/12/04 16:27:37.821404 blockchain.go:120: Blockchain size is: 32388 bytes
+INFO: 2018/12/04 16:27:37.822178 state.go:184: Validated block with height 62
+INFO: 2018/12/04 16:27:37.822271 blockchain.go:120: Blockchain size is: 32898 bytes
+INFO: 2018/12/04 16:27:37.823052 state.go:184: Validated block with height 63
+INFO: 2018/12/04 16:27:37.823141 blockchain.go:120: Blockchain size is: 33408 bytes
+INFO: 2018/12/04 16:27:37.823927 state.go:184: Validated block with height 64
+INFO: 2018/12/04 16:27:37.824029 blockchain.go:120: Blockchain size is: 33918 bytes
+INFO: 2018/12/04 16:27:37.824795 state.go:184: Validated block with height 65
+INFO: 2018/12/04 16:27:37.824872 blockchain.go:120: Blockchain size is: 34428 bytes
+INFO: 2018/12/04 16:27:38.250656 state.go:184: Validated block with height 66
+INFO: 2018/12/04 16:27:38.250824 blockchain.go:120: Blockchain size is: 35034 bytes
+INFO: 2018/12/04 16:27:38.251660 state.go:184: Validated block with height 67
+INFO: 2018/12/04 16:27:38.251760 blockchain.go:120: Blockchain size is: 35544 bytes
+INFO: 2018/12/04 16:27:38.252552 state.go:184: Validated block with height 68
+INFO: 2018/12/04 16:27:38.252631 blockchain.go:120: Blockchain size is: 36054 bytes
+INFO: 2018/12/04 16:27:38.253445 state.go:184: Validated block with height 69
+INFO: 2018/12/04 16:27:38.253545 blockchain.go:120: Blockchain size is: 36564 bytes
+INFO: 2018/12/04 16:27:38.254329 state.go:184: Validated block with height 70
+INFO: 2018/12/04 16:27:38.254412 blockchain.go:120: Blockchain size is: 37074 bytes
+INFO: 2018/12/04 16:27:38.255194 state.go:184: Validated block with height 71
+INFO: 2018/12/04 16:27:38.255274 blockchain.go:120: Blockchain size is: 37584 bytes
+INFO: 2018/12/04 16:27:38.256033 state.go:184: Validated block with height 72
+INFO: 2018/12/04 16:27:38.256129 blockchain.go:120: Blockchain size is: 38094 bytes
+INFO: 2018/12/04 16:27:38.256880 state.go:184: Validated block with height 73
+INFO: 2018/12/04 16:27:38.256976 blockchain.go:120: Blockchain size is: 38604 bytes
+INFO: 2018/12/04 16:27:38.257757 state.go:184: Validated block with height 74
+INFO: 2018/12/04 16:27:38.257836 blockchain.go:120: Blockchain size is: 39114 bytes
+INFO: 2018/12/04 16:27:38.258590 state.go:184: Validated block with height 75
+INFO: 2018/12/04 16:27:38.258669 blockchain.go:120: Blockchain size is: 39624 bytes
+INFO: 2018/12/04 16:27:38.259399 state.go:184: Validated block with height 76
+INFO: 2018/12/04 16:27:38.259480 blockchain.go:120: Blockchain size is: 40134 bytes
+INFO: 2018/12/04 16:27:38.260227 state.go:184: Validated block with height 77
+INFO: 2018/12/04 16:27:38.260313 blockchain.go:120: Blockchain size is: 40644 bytes
+INFO: 2018/12/04 16:27:38.260991 state.go:184: Validated block with height 78
+INFO: 2018/12/04 16:27:38.261072 blockchain.go:120: Blockchain size is: 41154 bytes
+INFO: 2018/12/04 16:27:38.261792 state.go:184: Validated block with height 79
+INFO: 2018/12/04 16:27:38.261878 blockchain.go:120: Blockchain size is: 41664 bytes
+INFO: 2018/12/04 16:27:38.261949 state.go:193: 80 block(s) validated. Chain good to go.
+INFO: 2018/12/04 16:27:38.262036 blockchain.go:56: Active config params:
+Block Hash: 04cdd685364ffb62
+Block size: 500000
+Difficulty interval: 20
+Fee minimum: 1
+Block interval: 180
+Block reward: 0
+Staking minimum: 1000
+Waiting minimum: 0
+Acceptanced time difference: 60
+Slashing window size: 100
+Slash reward: 2
+Num of previous proofs included in PoS: 5
+INFO: 2018/12/04 16:27:38.266639 blockchainparam.go:82: Target changed, new target: 21
+INFO: 2018/12/04 16:27:38.271761 p2p_interface.go:32: Validated block: 
+Hash: 0a45927822f5590e
+Previous Hash: c11bfd5806d110a2
+Nonce: 000000005c06aaf0
+Timestamp: 1543940848
+MerkleRoot: 0000000000000000
+Beneficiary: b91f15afb6163a47
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 80
+Commitment Proof: 4e640d301cec111f
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 79, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 58, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 67, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 70, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 78, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 80, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:27:38.272474 blockchain.go:120: Blockchain size is: 42174 bytes
+INFO: 2018/12/04 16:27:39.265983 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 16:27:52.650422 process.go:85: IP/Port received: 13.231.182.42:8001
+INFO: 2018/12/04 16:27:52.650580 process.go:85: IP/Port received: 54.206.54.31:8001
+INFO: 2018/12/04 16:27:52.650653 process.go:85: IP/Port received: 54.206.54.31:8001
+INFO: 2018/12/04 16:28:22.509143 process.go:85: IP/Port received: 18.217.187.223:8001
+INFO: 2018/12/04 16:28:22.713658 server.go:154: Adding a new miner: 13.231.182.42:8001
+INFO: 2018/12/04 16:31:01.419272 p2p_interface.go:32: Validated block: 
+Hash: 0f244bd7d0ba0ef8
+Previous Hash: 0a45927822f5590e
+Nonce: 000000005c06abc5
+Timestamp: 1543941061
+MerkleRoot: 0000000000000000
+Beneficiary: 8fd922cd7ddf4cc4
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 81
+Commitment Proof: 696949a4591fb58f
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 79, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 67, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 81, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 78, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 80, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 58, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:31:01.420240 blockchain.go:120: Blockchain size is: 42684 bytes
+INFO: 2018/12/04 16:31:02.269672 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 16:31:55.104353 p2p_interface.go:32: Validated block: 
+Hash: 1ce83f6cecd7da33
+Previous Hash: 0f244bd7d0ba0ef8
+Nonce: 000000005c06abfa
+Timestamp: 1543941114
+MerkleRoot: 0000000000000000
+Beneficiary: b91f15afb6163a47
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 82
+Commitment Proof: 62b47a076c596f1a
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 67, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 81, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 78, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 82, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 58, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 79, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:31:55.105296 blockchain.go:120: Blockchain size is: 43194 bytes
+INFO: 2018/12/04 16:31:55.273676 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 16:33:24.706202 p2p_interface.go:36: Received block (0c5b45f931522a6d) could not be validated: Common ancestor not found.
+INFO: 2018/12/04 16:33:24.866841 p2p_interface.go:32: Validated block: 
+Hash: b40d302f03dc6758
+Previous Hash: 1ce83f6cecd7da33
+Nonce: 000000005c06ac47
+Timestamp: 1543941191
+MerkleRoot: 0000000000000000
+Beneficiary: 8fd922cd7ddf4cc4
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 83
+Commitment Proof: 806ecaa44391f455
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 79, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 67, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 83, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 78, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 82, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 58, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:33:24.867727 blockchain.go:120: Blockchain size is: 43704 bytes
+INFO: 2018/12/04 16:33:25.277313 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 16:34:25.219592 p2p_interface.go:32: Validated block: 
+Hash: 8bcd7133b51660c9
+Previous Hash: b40d302f03dc6758
+Nonce: 000000005c06ac91
+Timestamp: 1543941265
+MerkleRoot: 0000000000000000
+Beneficiary: 327f2cf4e118bc13
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 84
+Commitment Proof: 0b3387a0f7b09d5c
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 79, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 84, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 67, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 83, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 78, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 82, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 58, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:34:25.220522 blockchain.go:120: Blockchain size is: 44214 bytes
+INFO: 2018/12/04 16:34:25.281023 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 16:34:27.247541 p2p_interface.go:32: Validated block: 
+Hash: b3c571a8c2ee9cd6
+Previous Hash: 8bcd7133b51660c9
+Nonce: 000000005c06ac93
+Timestamp: 1543941267
+MerkleRoot: 0000000000000000
+Beneficiary: 327f2cf4e118bc13
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 85
+Commitment Proof: 3f464e7bbf6ffc22
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 67, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 83, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 78, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 82, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 58, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 79, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 85, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:34:27.248497 blockchain.go:120: Blockchain size is: 44724 bytes
+INFO: 2018/12/04 16:34:27.284721 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 16:34:42.743480 p2p_interface.go:32: Validated block: 
+Hash: 9956b8f4e88b2824
+Previous Hash: b3c571a8c2ee9cd6
+Nonce: 000000005c06aca2
+Timestamp: 1543941282
+MerkleRoot: 0000000000000000
+Beneficiary: 5bf3b0775b3ca2dc
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 86
+Commitment Proof: cecbf45bc3d56e13
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 85, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 58, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 67, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 83, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 78, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 82, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:34:42.744443 blockchain.go:120: Blockchain size is: 45234 bytes
+INFO: 2018/12/04 16:34:43.288632 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 16:36:02.254840 p2p_interface.go:32: Validated block: 
+Hash: f8680316afe2f4a0
+Previous Hash: 9956b8f4e88b2824
+Nonce: 000000005c06acf2
+Timestamp: 1543941362
+MerkleRoot: 0000000000000000
+Beneficiary: 327f2cf4e118bc13
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 87
+Commitment Proof: 8fd9edbd8e3df9c8
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 87, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 83, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 78, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 82, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 58, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 67, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:36:02.255800 blockchain.go:120: Blockchain size is: 45744 bytes
+INFO: 2018/12/04 16:36:02.292300 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 16:36:27.296080 blockchain.go:72: Block mined (b4d5f3e0937938e6)
+INFO: 2018/12/04 16:36:27.304431 blockchain.go:79: Validated block: 
+Hash: b4d5f3e0937938e6
+Previous Hash: f8680316afe2f4a0
+Nonce: 000000005c06ad0b
+Timestamp: 1543941387
+MerkleRoot: 0000000000000000
+Beneficiary: fbd2242364449fac
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 88
+Commitment Proof: 15340d60155dc4d4
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 67, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 83, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 78, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 82, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 58, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 66, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 87, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 88, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:36:27.305309 blockchain.go:80: Size of Block b4d5f3e0937938e6: 510 Bytes. --> Header: 104 Bytes, Body: 406 Bytes --> Body includes 0 Bytes of TxData
+INFO: 2018/12/04 16:36:27.305381 blockchain.go:120: Blockchain size is: 46254 bytes
+INFO: 2018/12/04 16:36:27.447674 p2p_interface.go:25: Received block (b4d5f3e0937938e6) has already been validated.
+INFO: 2018/12/04 16:37:53.132693 p2p_interface.go:32: Validated block: 
+Hash: 1cc0d012137600a8
+Previous Hash: b4d5f3e0937938e6
+Nonce: 000000005c06ad60
+Timestamp: 1543941472
+MerkleRoot: 0000000000000000
+Beneficiary: 43fbf0635c490612
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 89
+Commitment Proof: 948292d4fbecf3a5
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 88, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 87, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 78, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 82, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 58, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 89, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 67, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 83, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:37:53.133622 blockchain.go:120: Blockchain size is: 46764 bytes
+INFO: 2018/12/04 16:37:53.309087 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 16:38:02.144464 p2p_interface.go:32: Validated block: 
+Hash: fa5076ee05a4354a
+Previous Hash: 1cc0d012137600a8
+Nonce: 000000005c06ad69
+Timestamp: 1543941481
+MerkleRoot: 0000000000000000
+Beneficiary: b91f15afb6163a47
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 90
+Commitment Proof: 0f72df93e28d2048
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 87, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 88, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 89, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 67, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 83, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 78, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 90, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 58, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:38:02.145454 blockchain.go:120: Blockchain size is: 47274 bytes
+INFO: 2018/12/04 16:38:02.312751 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 16:39:46.271601 p2p_interface.go:32: Validated block: 
+Hash: 81238819e909d17b
+Previous Hash: fa5076ee05a4354a
+Nonce: 000000005c06add2
+Timestamp: 1543941586
+MerkleRoot: 0000000000000000
+Beneficiary: 327f2cf4e118bc13
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 91
+Commitment Proof: 2b024e01cc29abda
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 67, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 83, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 78, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 90, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 58, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 89, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 91, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 88, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:39:46.272515 blockchain.go:120: Blockchain size is: 47784 bytes
+INFO: 2018/12/04 16:39:46.316288 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 16:40:48.171543 p2p_interface.go:32: Validated block: 
+Hash: d207cde6a0cbdf8a
+Previous Hash: 81238819e909d17b
+Nonce: 000000005c06ae0f
+Timestamp: 1543941647
+MerkleRoot: 0000000000000000
+Beneficiary: b91f15afb6163a47
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 92
+Commitment Proof: 18b1c6d1f2a9aef1
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 83, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 78, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 92, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 58, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 89, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 67, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 91, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 88, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:40:48.172538 blockchain.go:120: Blockchain size is: 48294 bytes
+INFO: 2018/12/04 16:40:48.319920 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 16:41:23.097628 p2p_interface.go:32: Validated block: 
+Hash: d87eaaa88cf5ce3c
+Previous Hash: d207cde6a0cbdf8a
+Nonce: 000000005c06ae32
+Timestamp: 1543941682
+MerkleRoot: 0000000000000000
+Beneficiary: b21a61dd4bec8d3b
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 93
+Commitment Proof: d212b0600d0da5f7
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 67, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 83, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 78, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 92, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 93, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 89, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 91, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 88, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:41:23.098561 blockchain.go:120: Blockchain size is: 48804 bytes
+INFO: 2018/12/04 16:41:23.323448 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 16:44:00.327094 blockchain.go:72: Block mined (0ddf47c902a6dcdb)
+INFO: 2018/12/04 16:44:00.332898 blockchain.go:79: Validated block: 
+Hash: 0ddf47c902a6dcdb
+Previous Hash: d87eaaa88cf5ce3c
+Nonce: 000000005c06aed0
+Timestamp: 1543941840
+MerkleRoot: 0000000000000000
+Beneficiary: fbd2242364449fac
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 94
+Commitment Proof: 84f8a6440af2076b
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 91, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 94, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 89, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 67, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 83, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 78, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 92, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 93, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:44:00.333834 blockchain.go:80: Size of Block 0ddf47c902a6dcdb: 510 Bytes. --> Header: 104 Bytes, Body: 406 Bytes --> Body includes 0 Bytes of TxData
+INFO: 2018/12/04 16:44:00.333884 blockchain.go:120: Blockchain size is: 49314 bytes
+INFO: 2018/12/04 16:44:00.477190 p2p_interface.go:25: Received block (0ddf47c902a6dcdb) has already been validated.
+INFO: 2018/12/04 16:48:51.178602 p2p_interface.go:32: Validated block: 
+Hash: 8dc197a5996c0c6b
+Previous Hash: 0ddf47c902a6dcdb
+Nonce: 000000005c06aff2
+Timestamp: 1543942130
+MerkleRoot: 0000000000000000
+Beneficiary: b91f15afb6163a47
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 95
+Commitment Proof: 12f84884ea0c2f15
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 95, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 93, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 89, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 67, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 83, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 78, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 91, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 94, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:48:51.179479 blockchain.go:120: Blockchain size is: 49824 bytes
+INFO: 2018/12/04 16:48:51.337311 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 16:48:55.120180 p2p_interface.go:32: Validated block: 
+Hash: 27f0c90b2235d20c
+Previous Hash: 8dc197a5996c0c6b
+Nonce: 000000005c06aff6
+Timestamp: 1543942134
+MerkleRoot: 0000000000000000
+Beneficiary: b21a61dd4bec8d3b
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 96
+Commitment Proof: e07476568ded8c57
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 78, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 95, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 96, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 89, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 67, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 83, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 94, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 91, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:48:55.121149 blockchain.go:120: Blockchain size is: 50334 bytes
+INFO: 2018/12/04 16:48:55.340915 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 16:52:51.908943 p2p_interface.go:32: Validated block: 
+Hash: 361b09e7d7f0cb6b
+Previous Hash: 27f0c90b2235d20c
+Nonce: 000000005c06b0e3
+Timestamp: 1543942371
+MerkleRoot: 0000000000000000
+Beneficiary: 7921e1ae671cb278
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 97
+Commitment Proof: 88f260145ca61820
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 94, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 91, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 97, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 95, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 96, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 89, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 67, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 83, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:52:51.909909 blockchain.go:120: Blockchain size is: 50844 bytes
+INFO: 2018/12/04 16:52:52.344959 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 16:53:06.793140 p2p_interface.go:32: Validated block: 
+Hash: 990f3d85a8026e64
+Previous Hash: 361b09e7d7f0cb6b
+Nonce: 000000005c06b0f2
+Timestamp: 1543942386
+MerkleRoot: 0000000000000000
+Beneficiary: 78c1e459c9b70a63
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 98
+Commitment Proof: 15fff582362db88a
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 91, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 94, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 89, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 98, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 83, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 97, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 95, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 96, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:53:06.794081 blockchain.go:120: Blockchain size is: 51354 bytes
+INFO: 2018/12/04 16:53:07.348808 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 16:53:51.587140 p2p_interface.go:32: Validated block: 
+Hash: cd2081240d3ed45e
+Previous Hash: 990f3d85a8026e64
+Nonce: 000000005c06b0fa
+Timestamp: 1543942394
+MerkleRoot: 0000000000000000
+Beneficiary: b21a61dd4bec8d3b
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 99
+Commitment Proof: a4518ae6f91eb5ec
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 94, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 91, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 97, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 95, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 99, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 89, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 98, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 83, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:53:51.588026 blockchain.go:120: Blockchain size is: 51864 bytes
+INFO: 2018/12/04 16:53:52.352565 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 16:55:59.922844 blockchainparam.go:82: Target changed, new target: 22
+INFO: 2018/12/04 16:55:59.936756 p2p_interface.go:32: Validated block: 
+Hash: 0c2276704e53e01c
+Previous Hash: cd2081240d3ed45e
+Nonce: 000000005c06b19f
+Timestamp: 1543942559
+MerkleRoot: 0000000000000000
+Beneficiary: 8fd922cd7ddf4cc4
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 100
+Commitment Proof: 6f5b5ee848e86e65
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 91, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 94, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 89, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 98, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 100, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 97, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 95, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 99, Contract: [], ContractVariables: []
+INFO: 2018/12/04 16:55:59.937607 blockchain.go:120: Blockchain size is: 52374 bytes
+INFO: 2018/12/04 16:56:00.356242 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:02:07.199802 p2p_interface.go:32: Validated block: 
+Hash: 94e6ec0726326f7c
+Previous Hash: 0c2276704e53e01c
+Nonce: 000000005c06b30f
+Timestamp: 1543942927
+MerkleRoot: 0000000000000000
+Beneficiary: 43fbf0635c490612
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 101
+Commitment Proof: 255d76060e9de168
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 91, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 94, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 98, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 100, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 97, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 95, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 99, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:02:07.200711 blockchain.go:120: Blockchain size is: 52884 bytes
+INFO: 2018/12/04 17:02:07.359829 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:02:35.947301 p2p_interface.go:32: Validated block: 
+Hash: 5b3d8af4d3cda8c9
+Previous Hash: 94e6ec0726326f7c
+Nonce: 000000005c06b32b
+Timestamp: 1543942955
+MerkleRoot: 0000000000000000
+Beneficiary: 7921e1ae671cb278
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 102
+Commitment Proof: 9d5405180c4d4b43
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 98, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 100, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 102, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 95, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 99, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 91, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 94, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:02:35.948232 blockchain.go:120: Blockchain size is: 53394 bytes
+INFO: 2018/12/04 17:02:36.363368 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:03:29.324015 p2p_interface.go:32: Validated block: 
+Hash: 7de2167acbae7770
+Previous Hash: 5b3d8af4d3cda8c9
+Nonce: 000000005c06b361
+Timestamp: 1543943009
+MerkleRoot: 0000000000000000
+Beneficiary: 327f2cf4e118bc13
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 103
+Commitment Proof: ebbff90e5585c88a
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 98, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 100, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 102, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 95, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 99, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 103, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 94, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:03:29.324923 blockchain.go:120: Blockchain size is: 53904 bytes
+INFO: 2018/12/04 17:03:29.367078 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:03:58.825230 p2p_interface.go:32: Validated block: 
+Hash: 7b5d193cf0a5132a
+Previous Hash: 7de2167acbae7770
+Nonce: 000000005c06b37e
+Timestamp: 1543943038
+MerkleRoot: 0000000000000000
+Beneficiary: 78c1e459c9b70a63
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 104
+Commitment Proof: 18ae61ec4536fcd0
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 94, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 103, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 102, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 95, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 99, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 100, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:03:58.826203 blockchain.go:120: Blockchain size is: 54414 bytes
+INFO: 2018/12/04 17:03:59.370809 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:04:50.969271 p2p_interface.go:32: Validated block: 
+Hash: da0f59a68c28a1da
+Previous Hash: 7b5d193cf0a5132a
+Nonce: 000000005c06b3b2
+Timestamp: 1543943090
+MerkleRoot: 0000000000000000
+Beneficiary: 7921e1ae671cb278
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 105
+Commitment Proof: 5d489f31353a5968
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 103, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 94, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 95, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 99, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 100, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 105, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:04:50.970168 blockchain.go:120: Blockchain size is: 54924 bytes
+INFO: 2018/12/04 17:04:51.374485 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:07:09.998202 p2p_interface.go:32: Validated block: 
+Hash: bb94273cb38f73f6
+Previous Hash: da0f59a68c28a1da
+Nonce: 000000005c06b43d
+Timestamp: 1543943229
+MerkleRoot: 0000000000000000
+Beneficiary: 7921e1ae671cb278
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 106
+Commitment Proof: 13a17472f15b68bf
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 86, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 103, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 94, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 95, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 99, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 100, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 106, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:07:09.999094 blockchain.go:120: Blockchain size is: 55434 bytes
+INFO: 2018/12/04 17:07:10.378271 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:10:36.548563 p2p_interface.go:36: Received block (b05181e6b3c55279) could not be validated: Common ancestor not found.
+INFO: 2018/12/04 17:10:58.829172 p2p_interface.go:32: Validated block: 
+Hash: 74ba5dda77fb24fe
+Previous Hash: bb94273cb38f73f6
+Nonce: 000000005c06b522
+Timestamp: 1543943458
+MerkleRoot: 0000000000000000
+Beneficiary: 5bf3b0775b3ca2dc
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 107
+Commitment Proof: 5ff6a0bb94858463
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 100, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 106, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 95, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 99, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 103, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 94, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 107, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:10:58.830127 blockchain.go:120: Blockchain size is: 55944 bytes
+INFO: 2018/12/04 17:10:59.381980 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:11:42.352793 p2p_interface.go:32: Validated block: 
+Hash: 7ff6446facf03c3e
+Previous Hash: 74ba5dda77fb24fe
+Nonce: 000000005c06b54e
+Timestamp: 1543943502
+MerkleRoot: 0000000000000000
+Beneficiary: 327f2cf4e118bc13
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 108
+Commitment Proof: 5d48c3fad116b422
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 100, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 106, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 95, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 99, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 107, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 108, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 94, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:11:42.353723 blockchain.go:120: Blockchain size is: 56454 bytes
+INFO: 2018/12/04 17:11:42.385674 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:13:35.015733 p2p_interface.go:32: Validated block: 
+Hash: e3b738f21416ebf5
+Previous Hash: 7ff6446facf03c3e
+Nonce: 000000005c06b5be
+Timestamp: 1543943614
+MerkleRoot: 0000000000000000
+Beneficiary: 8fd922cd7ddf4cc4
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 109
+Commitment Proof: 5a80b2e998b12650
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 107, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 108, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 94, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 109, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 106, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 95, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 99, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:13:35.016642 blockchain.go:120: Blockchain size is: 56964 bytes
+INFO: 2018/12/04 17:13:35.389297 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:14:26.393032 blockchain.go:72: Block mined (561616b36756847b)
+INFO: 2018/12/04 17:14:26.400983 blockchain.go:79: Validated block: 
+Hash: 561616b36756847b
+Previous Hash: e3b738f21416ebf5
+Nonce: 000000005c06b5f2
+Timestamp: 1543943666
+MerkleRoot: 0000000000000000
+Beneficiary: fbd2242364449fac
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 110
+Commitment Proof: 8fdccb6ffd3dd542
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 110, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 107, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 108, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 106, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 95, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 99, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 109, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:14:26.401851 blockchain.go:80: Size of Block 561616b36756847b: 510 Bytes. --> Header: 104 Bytes, Body: 406 Bytes --> Body includes 0 Bytes of TxData
+INFO: 2018/12/04 17:14:26.401898 blockchain.go:120: Blockchain size is: 57474 bytes
+INFO: 2018/12/04 17:14:26.544770 p2p_interface.go:25: Received block (561616b36756847b) has already been validated.
+INFO: 2018/12/04 17:16:40.844502 p2p_interface.go:32: Validated block: 
+Hash: 49a53a0ab4232fa0
+Previous Hash: 561616b36756847b
+Nonce: 000000005c06b678
+Timestamp: 1543943800
+MerkleRoot: 0000000000000000
+Beneficiary: 5bf3b0775b3ca2dc
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 111
+Commitment Proof: 71ecfee3135cf241
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 109, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 106, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 95, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 99, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 108, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 110, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 111, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:16:40.845440 blockchain.go:120: Blockchain size is: 57984 bytes
+INFO: 2018/12/04 17:16:41.405343 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:16:58.866762 p2p_interface.go:32: Validated block: 
+Hash: cefe879d1c40db49
+Previous Hash: 49a53a0ab4232fa0
+Nonce: 000000005c06b68a
+Timestamp: 1543943818
+MerkleRoot: 0000000000000000
+Beneficiary: 5bf3b0775b3ca2dc
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 112
+Commitment Proof: b572ba7e6daa6c5c
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 112, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 108, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 110, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 109, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 106, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 95, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 99, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:16:58.867650 blockchain.go:120: Blockchain size is: 58494 bytes
+INFO: 2018/12/04 17:16:59.408976 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:18:18.245850 p2p_interface.go:32: Validated block: 
+Hash: 3f7d698b75c23a5c
+Previous Hash: cefe879d1c40db49
+Nonce: 000000005c06b6da
+Timestamp: 1543943898
+MerkleRoot: 0000000000000000
+Beneficiary: b91f15afb6163a47
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 113
+Commitment Proof: 2b0eb72b8ee22f47
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 110, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 112, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 108, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 106, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 113, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 99, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 109, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:18:18.246815 blockchain.go:120: Blockchain size is: 59004 bytes
+INFO: 2018/12/04 17:18:18.412710 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:18:52.024245 p2p_interface.go:32: Validated block: 
+Hash: 2853d44457cdd9db
+Previous Hash: 3f7d698b75c23a5c
+Nonce: 000000005c06b6fb
+Timestamp: 1543943931
+MerkleRoot: 0000000000000000
+Beneficiary: 7921e1ae671cb278
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 114
+Commitment Proof: 4a833b930ac4ac24
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 109, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 114, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 113, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 99, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 112, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 108, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 110, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:18:52.025155 blockchain.go:120: Blockchain size is: 59514 bytes
+INFO: 2018/12/04 17:18:52.416336 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:20:31.204343 p2p_interface.go:32: Validated block: 
+Hash: 2880f9bb35fc10f5
+Previous Hash: 2853d44457cdd9db
+Nonce: 000000005c06b75f
+Timestamp: 1543944031
+MerkleRoot: 0000000000000000
+Beneficiary: b21a61dd4bec8d3b
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 115
+Commitment Proof: 6174cd359a59e1bd
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 112, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 108, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 110, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 113, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 115, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 109, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 114, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:20:31.205277 blockchain.go:120: Blockchain size is: 60024 bytes
+INFO: 2018/12/04 17:20:31.419985 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:21:15.878981 p2p_interface.go:32: Validated block: 
+Hash: e09216eaa5fd857b
+Previous Hash: 2880f9bb35fc10f5
+Nonce: 000000005c06b78b
+Timestamp: 1543944075
+MerkleRoot: 0000000000000000
+Beneficiary: 5bf3b0775b3ca2dc
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 116
+Commitment Proof: 2fceb46da31244d1
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 109, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 114, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 113, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 115, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 108, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 110, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 116, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:21:15.879877 blockchain.go:120: Blockchain size is: 60534 bytes
+INFO: 2018/12/04 17:21:16.423706 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:24:21.900948 p2p_interface.go:32: Validated block: 
+Hash: 0b85551159d76035
+Previous Hash: e09216eaa5fd857b
+Nonce: 000000005c06b845
+Timestamp: 1543944261
+MerkleRoot: 0000000000000000
+Beneficiary: 5bf3b0775b3ca2dc
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 117
+Commitment Proof: 9db8d8083b7d9f1a
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 108, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 110, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 117, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 109, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 114, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 113, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 115, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:24:21.901887 blockchain.go:120: Blockchain size is: 61044 bytes
+INFO: 2018/12/04 17:24:22.427385 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:25:11.277755 p2p_interface.go:32: Validated block: 
+Hash: 97e6ddc52b6f56e7
+Previous Hash: 0b85551159d76035
+Nonce: 000000005c06b877
+Timestamp: 1543944311
+MerkleRoot: 0000000000000000
+Beneficiary: b91f15afb6163a47
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 118
+Commitment Proof: 04ad8455d3d4dcff
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 109, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 114, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 118, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 115, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 117, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 108, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 110, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:25:11.278659 blockchain.go:120: Blockchain size is: 61554 bytes
+INFO: 2018/12/04 17:25:11.431088 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:26:40.902953 p2p_interface.go:32: Validated block: 
+Hash: 3190afa14ef42ca8
+Previous Hash: 97e6ddc52b6f56e7
+Nonce: 000000005c06b8d0
+Timestamp: 1543944400
+MerkleRoot: 0000000000000000
+Beneficiary: 5bf3b0775b3ca2dc
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 119
+Commitment Proof: c2f91332bf4aeda3
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 108, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 110, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 119, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 109, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 114, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 118, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 115, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:26:40.903851 blockchain.go:120: Blockchain size is: 62064 bytes
+INFO: 2018/12/04 17:26:41.434833 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:26:42.286476 blockchainparam.go:82: Target changed, new target: 23
+INFO: 2018/12/04 17:26:42.292775 p2p_interface.go:32: Validated block: 
+Hash: 8274e3c8b69e44e8
+Previous Hash: 3190afa14ef42ca8
+Nonce: 000000005c06b8d2
+Timestamp: 1543944402
+MerkleRoot: 0000000000000000
+Beneficiary: b91f15afb6163a47
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 120
+Commitment Proof: cca9dda524832985
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 115, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 109, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 114, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 120, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 119, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 108, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 110, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:26:42.293717 blockchain.go:120: Blockchain size is: 62574 bytes
+INFO: 2018/12/04 17:26:42.438655 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:32:48.080456 p2p_interface.go:32: Validated block: 
+Hash: 309ca727ec8f5218
+Previous Hash: 8274e3c8b69e44e8
+Nonce: 000000005c06ba3f
+Timestamp: 1543944767
+MerkleRoot: 0000000000000000
+Beneficiary: 8fd922cd7ddf4cc4
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 121
+Commitment Proof: d90dc92bae21c979
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 121, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 114, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 120, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 115, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 108, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 110, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 119, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:32:48.081389 blockchain.go:120: Blockchain size is: 63084 bytes
+INFO: 2018/12/04 17:32:48.442485 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:36:04.246525 p2p_interface.go:32: Validated block: 
+Hash: bc25eb8cd98e98b2
+Previous Hash: 309ca727ec8f5218
+Nonce: 000000005c06bae7
+Timestamp: 1543944935
+MerkleRoot: 0000000000000000
+Beneficiary: 327f2cf4e118bc13
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 122
+Commitment Proof: 48e547023faf5efd
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 121, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 114, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 120, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 115, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 119, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 122, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 110, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:36:04.247417 blockchain.go:120: Blockchain size is: 63594 bytes
+INFO: 2018/12/04 17:36:04.446215 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:37:49.450001 blockchain.go:72: Block mined (a5a9c490ebe3b313)
+INFO: 2018/12/04 17:37:49.456344 blockchain.go:79: Validated block: 
+Hash: a5a9c490ebe3b313
+Previous Hash: bc25eb8cd98e98b2
+Nonce: 000000005c06bb6d
+Timestamp: 1543945069
+MerkleRoot: 0000000000000000
+Beneficiary: fbd2242364449fac
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 123
+Commitment Proof: 8e42bca59d64afb2
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 123, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 119, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 122, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 114, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 120, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 115, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 121, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:37:49.457193 blockchain.go:80: Size of Block a5a9c490ebe3b313: 510 Bytes. --> Header: 104 Bytes, Body: 406 Bytes --> Body includes 0 Bytes of TxData
+INFO: 2018/12/04 17:37:49.457251 blockchain.go:120: Blockchain size is: 64104 bytes
+INFO: 2018/12/04 17:37:49.603260 p2p_interface.go:25: Received block (a5a9c490ebe3b313) has already been validated.
+INFO: 2018/12/04 17:38:06.312493 p2p_interface.go:32: Validated block: 
+Hash: 99324ec50bc70f9b
+Previous Hash: a5a9c490ebe3b313
+Nonce: 000000005c06bb7e
+Timestamp: 1543945086
+MerkleRoot: 0000000000000000
+Beneficiary: b91f15afb6163a47
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 124
+Commitment Proof: 225d3854e3416a49
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 124, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 115, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 121, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 114, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 119, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 122, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 123, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:38:06.313487 blockchain.go:120: Blockchain size is: 64614 bytes
+INFO: 2018/12/04 17:38:06.460766 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:41:53.090674 p2p_interface.go:32: Validated block: 
+Hash: cf9cbe6fabf8c3e9
+Previous Hash: 99324ec50bc70f9b
+Nonce: 000000005c06bc61
+Timestamp: 1543945313
+MerkleRoot: 0000000000000000
+Beneficiary: 8fd922cd7ddf4cc4
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 125
+Commitment Proof: a6ec1bcd4615a714
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 115, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 104, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 125, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 114, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 124, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 119, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 122, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 123, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:41:53.091553 blockchain.go:120: Blockchain size is: 65124 bytes
+INFO: 2018/12/04 17:41:53.464599 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:43:10.932867 p2p_interface.go:32: Validated block: 
+Hash: 2525b52f30c29af6
+Previous Hash: cf9cbe6fabf8c3e9
+Nonce: 000000005c06bcae
+Timestamp: 1543945390
+MerkleRoot: 0000000000000000
+Beneficiary: 78c1e459c9b70a63
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 126
+Commitment Proof: 8325c5ba809a1295
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 126, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 125, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 114, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 124, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 115, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 119, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 122, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 123, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:43:10.933786 blockchain.go:120: Blockchain size is: 65634 bytes
+INFO: 2018/12/04 17:43:11.468272 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:45:31.950212 p2p_interface.go:32: Validated block: 
+Hash: da3ff6eeb7801859
+Previous Hash: 2525b52f30c29af6
+Nonce: 000000005c06bd3b
+Timestamp: 1543945531
+MerkleRoot: 0000000000000000
+Beneficiary: 5bf3b0775b3ca2dc
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 127
+Commitment Proof: 2bc88de183b368a7
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 122, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 123, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 127, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 125, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 114, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 124, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 115, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 126, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:45:31.951114 blockchain.go:120: Blockchain size is: 66144 bytes
+INFO: 2018/12/04 17:45:32.471918 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:46:48.118767 p2p_interface.go:32: Validated block: 
+Hash: 19cac9373b12d500
+Previous Hash: da3ff6eeb7801859
+Nonce: 000000005c06bd88
+Timestamp: 1543945608
+MerkleRoot: 0000000000000000
+Beneficiary: 8fd922cd7ddf4cc4
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 128
+Commitment Proof: 80e83e4b5986f6d0
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 127, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 122, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 123, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 126, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 128, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 114, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 124, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 115, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:46:48.119664 blockchain.go:120: Blockchain size is: 66654 bytes
+INFO: 2018/12/04 17:46:48.475585 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:47:52.382583 p2p_interface.go:32: Validated block: 
+Hash: 9d720c99d172de3a
+Previous Hash: 19cac9373b12d500
+Nonce: 000000005c06bdc8
+Timestamp: 1543945672
+MerkleRoot: 0000000000000000
+Beneficiary: 327f2cf4e118bc13
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 129
+Commitment Proof: 4ed5a539effbc674
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 126, Contract: [], ContractVariables: []
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 128, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 114, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 124, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 115, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 127, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 129, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 123, Contract: [], ContractVariables: []
+INFO: 2018/12/04 17:47:52.383490 blockchain.go:120: Blockchain size is: 67164 bytes
+INFO: 2018/12/04 17:47:52.479194 blockchain.go:70: Abort mining, another block has been successfully validated in the meantime
+INFO: 2018/12/04 17:59:46.372454 p2p_interface.go:36: Received block (27f359f0e92f34b4) could not be validated: Common ancestor not found.
+INFO: 2018/12/04 17:59:46.462538 server.go:170: Miner disconnected: Connection to 52.56.39.190:8000 aborted: EOF
+INFO: 2018/12/04 17:59:52.911035 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 17:59:52.911241 process.go:85: IP/Port received: 13.231.182.42:8001
+INFO: 2018/12/04 17:59:53.189179 server.go:154: Adding a new miner: 54.206.54.31:8001
+INFO: 2018/12/04 18:00:23.331345 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:00:53.473255 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:00:55.948818 p2p_interface.go:36: Received block (26574bb557201623) could not be validated: Common ancestor not found.
+INFO: 2018/12/04 18:01:23.619325 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:01:53.760784 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:02:23.906774 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:02:54.049412 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:03:24.193961 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:03:35.483118 blockchain.go:72: Block mined (a8bce1a34a5a02bf)
+INFO: 2018/12/04 18:03:35.489718 blockchain.go:79: Validated block: 
+Hash: a8bce1a34a5a02bf
+Previous Hash: 9d720c99d172de3a
+Nonce: 000000005c06c177
+Timestamp: 1543946615
+MerkleRoot: 0000000000000000
+Beneficiary: fbd2242364449fac
+Amount of fundsTx: 0 --> []
+Amount of accTx: 0 --> []
+Amount of configTx: 0 --> []
+Amount of stakeTx: 0 --> []
+Total Transactions in this block: 0
+Height: 130
+Commitment Proof: 474a7e7846410611
+Slashed Address:0000000000000000
+Conflicted Block Hash 1:0000000000000000
+Conflicted Block Hash 2:0000000000000000
+State:
+Is root: false, Hash: 8fd922cd7ddf4cc4, Address: 3f2509cad4f6e8e1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4007, IsStaking: true, CommitmentKey: e10c6b378bb7bfc2, StakingBlockHeight: 128, Contract: [], ContractVariables: []
+Is root: false, Hash: 7921e1ae671cb278, Address: ca147bcfa99b479b, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 4003, IsStaking: true, CommitmentKey: b7cbfab8ca046c4c, StakingBlockHeight: 114, Contract: [], ContractVariables: []
+Is root: false, Hash: b91f15afb6163a47, Address: 39fcd443949a06f9, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: cf4ab7ed80806485, StakingBlockHeight: 124, Contract: [], ContractVariables: []
+Is root: false, Hash: b21a61dd4bec8d3b, Address: a3c3fd08d215f8d1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: f2f688a06899706e, StakingBlockHeight: 115, Contract: [], ContractVariables: []
+Is root: false, Hash: 43fbf0635c490612, Address: 9ad768eb0f48d764, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: a9b66688c2197e03, StakingBlockHeight: 101, Contract: [], ContractVariables: []
+Is root: true, Hash: 78c1e459c9b70a63, Address: a27e5700ec4783d4, Issuer: 0000000000000000, TxCnt: 8, Balance: 1015, IsStaking: true, CommitmentKey: b4c30c509803aff5, StakingBlockHeight: 126, Contract: [], ContractVariables: []
+Is root: false, Hash: 327f2cf4e118bc13, Address: 88d04ffba6b42255, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ee932a4ac7c034d6, StakingBlockHeight: 129, Contract: [], ContractVariables: []
+Is root: false, Hash: fbd2242364449fac, Address: 38326d136e18b7c1, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: ad17fb4b505500c8, StakingBlockHeight: 130, Contract: [], ContractVariables: []
+Is root: false, Hash: 5bf3b0775b3ca2dc, Address: 7ffb0d71d9817536, Issuer: 78c1e459c9b70a63, TxCnt: 0, Balance: 3999, IsStaking: true, CommitmentKey: d9ff5fd68a5b1276, StakingBlockHeight: 127, Contract: [], ContractVariables: []
+INFO: 2018/12/04 18:03:35.490648 blockchain.go:80: Size of Block a8bce1a34a5a02bf: 510 Bytes. --> Header: 104 Bytes, Body: 406 Bytes --> Body includes 0 Bytes of TxData
+INFO: 2018/12/04 18:03:35.490706 blockchain.go:120: Blockchain size is: 67674 bytes
+INFO: 2018/12/04 18:03:54.337097 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:04:24.478550 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:04:54.622905 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:05:24.763606 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:05:54.908183 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:06:25.050085 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:06:55.192170 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:07:25.337824 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:07:40.933378 p2p_interface.go:36: Received block (da44137ac129707c) could not be validated: Common ancestor not found.
+INFO: 2018/12/04 18:07:55.483654 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:08:25.625070 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:08:55.767766 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:09:25.911329 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:09:36.295018 p2p_interface.go:36: Received block (cb6163e3337735f8) could not be validated: Common ancestor not found.
+INFO: 2018/12/04 18:09:56.055851 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:10:20.235567 p2p_interface.go:36: Received block (2ef95dd0ef5d7033) could not be validated: Common ancestor not found.
+INFO: 2018/12/04 18:10:26.198994 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:10:56.341807 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:11:26.486725 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:11:56.628665 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:12:26.770168 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:12:56.913921 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:13:27.058896 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:13:57.201048 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:14:34.612229 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:15:04.757158 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:15:34.901343 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:16:05.043986 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:16:35.190038 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:17:05.334160 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:17:35.479826 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:18:05.621759 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:18:35.767407 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:19:05.911430 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:19:36.055849 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:20:06.198427 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:20:36.342487 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:21:06.486580 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:21:36.631157 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:22:06.775293 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:22:36.918650 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:23:07.063188 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:23:37.206547 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:24:07.349817 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:24:37.494675 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:25:07.637511 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:25:37.579624 p2p_interface.go:36: Received block (0258336340e89117) could not be validated: Common ancestor not found.
+INFO: 2018/12/04 18:25:37.782060 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:26:07.927788 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:26:38.069234 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:27:08.211973 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:27:38.356001 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:28:08.499838 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:28:38.644800 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:29:08.790410 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:29:38.931890 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:30:01.241184 p2p_interface.go:36: Received block (f2a8ffd8966be10d) could not be validated: Common ancestor not found.
+INFO: 2018/12/04 18:30:09.075845 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:30:39.221587 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:31:09.366620 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:31:39.511623 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:32:09.657830 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:32:39.799328 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:33:09.943789 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:33:40.090160 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:34:10.230657 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:34:32.970758 p2p_interface.go:36: Received block (bbe3376080ffaa75) could not be validated: Common ancestor not found.
+INFO: 2018/12/04 18:34:40.375645 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:35:10.517537 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:35:40.659457 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:36:10.803263 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:36:40.947991 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:37:11.092410 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:37:41.235127 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:38:08.119521 p2p_interface.go:36: Received block (af6d1fa7489997f6) could not be validated: Common ancestor not found.
+INFO: 2018/12/04 18:38:11.378734 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:38:41.522413 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:39:11.666499 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:39:41.809920 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:40:11.952575 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:40:42.096631 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:41:12.242505 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:41:42.383745 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:42:12.528246 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:42:42.669708 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:43:12.813501 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
+INFO: 2018/12/04 18:43:42.958526 services.go:54: dial tcp 52.56.39.190:8000: connect: connection refused
