@@ -44,6 +44,12 @@ sudo apt install jq
 echo "done"
 echo " "
 
+echo "download and install git lfs"
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+sudo apt-get install git-lfs
+git lfs install
+echo "git lfs installed"
+
 echo "Enable Colorful Prompt"
 sed -ie "s/#force_color_prompt/force_color_prompt/g" /home/ubuntu/.bashrc
 echo ".bashrc color replaced"
