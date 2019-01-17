@@ -58,7 +58,7 @@ echo "enter bootstrap IP: [number]"
 read btIP
 jq '.this_client.ip="'$pbIP'"' configuration.json > temp.json
 rm configuration.json
-jq '.bootstrap_server.ip="'$btIP'"' temp.json > temp2.json
+jq '.bootstrap_server.ip="'$pbIP'"' temp.json > temp2.json
 jq '.multisig_server.ip="'$btIP'"' temp2.json > configuration.json
 echo "configuration.json"
 cat configuration.json
