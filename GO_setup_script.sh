@@ -16,6 +16,11 @@ sudo apt install gcc
 echo "Updating GCC - Finished"
 echo " "
 
+echo " Installing TMUX - Started"
+sudo apt-get install tmux
+echo " Installing TMUX - Finished"
+echo " "
+
 echo "Clear GO cache - Started"
 cd /home/ubuntu/.cache/
 sudo rm -R go-build/
