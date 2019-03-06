@@ -56,9 +56,9 @@ git lfs install
 echo "git lfs installed"
 
 echo "Enable Colorful Prompt"
-sed -ie "s/#force_color_prompt/force_color_prompt/g" /home/ubuntu/.bashrc
+sed -ie "s/#force_color_prompt/force_color_prompt/g" ~/.bashrc
 echo ".bashrc color replaced"
-source /home/ubuntu/.bashrc
+source ~/.bashrc
 cd 
 source .bashrc
 echo "Colorful Prompt Enabled"
