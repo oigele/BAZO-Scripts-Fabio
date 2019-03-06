@@ -16,6 +16,12 @@ go get github.com/bazo-blockchain/bazo-client
 cd ~/BAZO-Scripts-Fabio
 git pull origin
 
+echo "Check and add Fork"
+git remote -v
+git remote add fork https://github.com/febe19/bazo-miner.git
+git remote -v 
+git pull fork 
+
 echo " "
 cd ~/go/src/github.com/bazo-blockchain/bazo-miner
 git pull
