@@ -2,7 +2,7 @@
 
 echo " "
 echo "The following script is written to help you setting up a Bazo Miner & Client when the new account already exists."
-echo "Plese insert the name of the Cloude Provider the VM runs: [AWS/Azure]"
+echo "Plese insert the name of the Cloude Provider the VM runs: [AWS/Azure/B04]"
 read provider
 echo "Plese insert the name of the Location where you set up this VM:"
 read location
@@ -13,11 +13,11 @@ echo "Downloading the Errors Package with: go get github.com/pkg/errors"
 go get github.com/pkg/errors
 echo "Downloading the Client and Miner Package with: go get github.com/bazo-blockchain/bazo-client"
 go get github.com/bazo-blockchain/bazo-client
-cd /home/ubuntu/BAZO-Scripts-Fabio
+cd ~/BAZO-Scripts-Fabio
 git pull origin
 
 echo " "
-cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+cd ~/go/src/github.com/bazo-blockchain/bazo-miner
 git pull
 echo "All Branches on Miner:"
 git branch -a
@@ -33,7 +33,7 @@ go build
 echo "Miner with branch $minerbranch  built."
 
 echo " "
-cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
+cd ~/go/src/github.com/bazo-blockchain/bazo-client
 git pull
 echo "All Branches on Client:"
 git branch -a
@@ -49,7 +49,7 @@ go build
 echo "Client with branch $clientbranch built."
 
 echo " "
-cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
+cd ~/go/src/github.com/bazo-blockchain/bazo-client
 pbIP=$(curl https://ipinfo.io/ip)
 echo " "
 echo "This machines public IP:"
@@ -64,17 +64,17 @@ echo "configuration.json"
 cat configuration.json
 rm temp.json
 rm temp2.json
-cd /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
+cd ~/go/src/github.com/bazo-blockchain/bazo-client
 
 echo "List of Wallets:"
-cd /home/ubuntu/BAZO-Scripts-Fabio/Wallets
+cd ~/BAZO-Scripts-Fabio/Wallets
 ls
 echo " "
 echo "Is there a Wallet with the Wallet$provider$location.txt on the list? [y/n]"
 read selection
 if [ "$selection" = "y" ]
-  then cp -r /home/ubuntu/BAZO-Scripts-Fabio/Wallets /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
-       cp -r /home/ubuntu/BAZO-Scripts-Fabio/Wallets /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
+  then cp -r ~/BAZO-Scripts-Fabio/Wallets /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+       cp -r ~/BAZO-Scripts-Fabio/Wallets /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
        echo "Wallet folder is successfully cpoied to the miner and client"
   else git pull origin
        echo "copy Wallet folder manually to the client and miner folder"
@@ -82,13 +82,13 @@ fi
 
 echo " "
 echo "List of Commitments:"
-cd /home/ubuntu/BAZO-Scripts-Fabio/Commitments
+cd ~/BAZO-Scripts-Fabio/Commitments
 ls
 echo " "
 echo "Is there a Commitment with the name Commitment$provider$location.txt on the list above? [y/n]"
 read selection
 if [ "$selection" = "y" ]
-  then cp -r /home/ubuntu/BAZO-Scripts-Fabio/Commitments /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+  then cp -r ~/BAZO-Scripts-Fabio/Commitments /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
        echo "Commitment folder is successfully copied to the miner."
   else git pull origin
        echo "Copy Commitment folder manually to the miner folder"
@@ -96,17 +96,17 @@ fi
 
 echo " "
 echo "List of BAZO-Scripts-Fabio:"
-cd /home/ubuntu/BAZO-Scripts-Fabio
+cd ~/BAZO-Scripts-Fabio
 ls
 echo " "
 echo "Is there a file with the name StoreAWSLondon.db? [y/n]"
 read selection
 if [ "$selection" = "y" ]
-  then touch /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
-       cp /home/ubuntu/BAZO-Scripts-Fabio/StoreAWSLondon.db /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
+  then touch ~/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
+       cp ~/BAZO-Scripts-Fabio/StoreAWSLondon.db /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
        echo "Store.db folder is successfully copied to the miner folder"
   else git pull origin
-       echo "Copy the Root Store (the database of teh VM in London) manually to the miner folder"
+       echo "Copy the Root Store (the database of the root VM) manually to the miner folder"
 fi
 
 echo " "
