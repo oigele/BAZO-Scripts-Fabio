@@ -13,7 +13,7 @@ echo "Downloading the Errors Package with: go get github.com/pkg/errors"
 go get github.com/pkg/errors
 echo "Downloading the Client and Miner Package with: go get github.com/bazo-blockchain/bazo-client"
 go get github.com/bazo-blockchain/bazo-client
-cd ~/BAZO-Scripts-Fabio
+cd ~/go/src/github.com/bazo-blockchain/bazo-miner
 git pull origin
 
 echo "Check and add Fork"
@@ -39,7 +39,8 @@ echo "Miner with branch $minerbranch  built."
 
 echo " "
 cd ~/go/src/github.com/bazo-blockchain/bazo-client
-git pull
+git remote add fork https://github.com/febe19/bazo-client.git
+git pull fork
 echo "All Branches on Client:"
 git branch -a
 echo "Insert Bazo Github Branch for Client"
