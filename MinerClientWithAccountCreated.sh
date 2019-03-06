@@ -17,7 +17,6 @@ cd ~/BAZO-Scripts-Fabio
 git pull origin
 
 echo "Check and add Fork"
-git remote -v
 git remote add fork https://github.com/febe19/bazo-miner.git
 git remote -v 
 git pull fork 
