@@ -22,7 +22,7 @@ echo " Installing TMUX - Finished"
 echo " "
 
 echo "Clear GO cache - Started"
-cd /home/ubuntu/.cache/
+cd ~/.cache/
 sudo rm -R go-build/
 echo "Clear GO cache - Finished"
 echo " "
