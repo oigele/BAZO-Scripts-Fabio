@@ -64,7 +64,7 @@ echo "enter bootstrap IP: [number]"
 read btIP
 jq '.this_client.ip="'$pbIP'"' configuration.json > temp.json
 rm configuration.json
-jq '.bootstrap_server.ip="'$pbIP'"' temp.json > temp2.json
+jq '.bootstrap_server.ip="'$btIP'"' temp.json > temp2.json
 jq '.multisig_server.ip="'$btIP'"' temp2.json > configuration.json
 echo "configuration.json"
 cat configuration.json
@@ -101,21 +101,6 @@ if [ "$selection" = "y" ]
 fi
 
 echo " "
-echo "List of BAZO-Scripts-Fabio:"
-cd ~/BAZO-Scripts-Fabio
-ls
-echo " "
-echo "Is there a file with the name StoreAWSLondon.db? [y/n]"
-read selection
-if [ "$selection" = "y" ]
-  then touch ~/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
-       cp ~/BAZO-Scripts-Fabio/StoreAWSLondon.db /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner/Store.db
-       echo "Store.db folder is successfully copied to the miner folder"
-  else git pull origin
-       echo "Copy the Root Store (the database of the root VM) manually to the miner folder"
-fi
-
-echo " "
 echo "Bazo Miner can be started in the Miner folder with: "
-echo "./bazo-miner start --database Store.db --address $pbIP:8000 --bootstrap $btIP:8000 --wallet Wallets/Wallet$provider$location.txt --commitment Commitments/Commitment$provider$location.txt --multisig Wallets/WalletAWSLondon.txt --rootwallet Wallets/WalletAWSLondon.txt --rootcommitment Commitments/CommitmentAWSLondon.txt --confirm"
+echo "./bazo-miner start --database Store.db --address $pbIP:8000 --bootstrap $btIP:8000 --wallet Wallets/Wallet$provider$location.txt --commitment Commitments/Commitment$provider$location.txt --multisig Wallets/WalletB04Root --rootwallet Wallets/WalletB04Root.txt --rootcommitment Commitments/CommitmentB04Root.txt --confirm"
 echo " "
