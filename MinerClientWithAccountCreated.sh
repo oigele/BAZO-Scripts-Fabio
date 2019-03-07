@@ -102,5 +102,5 @@ fi
 
 echo " "
 echo "Bazo Miner can be started in the Miner folder with: "
-echo "./bazo-miner start --database Store.db --address $pbIP:8000 --bootstrap $btIP:8000 --wallet Wallets/Wallet$provider$location.txt --commitment Commitments/Commitment$provider$location.txt --multisig Wallets/WalletB04Root --rootwallet Wallets/WalletB04Root.txt --rootcommitment Commitments/CommitmentB04Root.txt --confirm"
+echo "./bazo-miner start --database Store.db --address $pbIP:8000 --bootstrap $btIP:8000 --wallet Wallets/Wallet$provider$location.txt --commitment Commitments/Commitment$provider$location.txt --multisig Wallets/WalletB04Root.txt --rootwallet Wallets/WalletB04Root.txt --rootcommitment Commitments/CommitmentB04Root.txt --confirm"
 echo " "
