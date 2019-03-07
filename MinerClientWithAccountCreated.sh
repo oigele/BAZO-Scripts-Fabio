@@ -79,9 +79,9 @@ echo " "
 echo "Is there a Wallet with the Wallet$provider$location.txt on the list? [y/n]"
 read selection
 if [ "$selection" = "y" ]
-  then cp -r ~/BAZO-Scripts-Fabio/Wallets /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
-       cp -r ~/BAZO-Scripts-Fabio/Wallets /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-client
-       echo "Wallet folder is successfully cpoied to the miner and client"
+  then cp -r ~/BAZO-Scripts-Fabio/Wallets ~/go/src/github.com/bazo-blockchain/bazo-miner
+       cp -r ~/BAZO-Scripts-Fabio/Wallets ~/go/src/github.com/bazo-blockchain/bazo-client
+       echo "Wallet folder is successfully copied to the miner and client"
   else git pull origin
        echo "copy Wallet folder manually to the client and miner folder"
 fi
@@ -94,7 +94,7 @@ echo " "
 echo "Is there a Commitment with the name Commitment$provider$location.txt on the list above? [y/n]"
 read selection
 if [ "$selection" = "y" ]
-  then cp -r ~/BAZO-Scripts-Fabio/Commitments /home/ubuntu/go/src/github.com/bazo-blockchain/bazo-miner
+  then cp -r ~/BAZO-Scripts-Fabio/Commitments ~/go/src/github.com/bazo-blockchain/bazo-miner
        echo "Commitment folder is successfully copied to the miner."
   else git pull origin
        echo "Copy Commitment folder manually to the miner folder"
