@@ -87,7 +87,7 @@ echo " "
 ./bazo-client funds --from Wallets/WalletB04Root.txt --to Wallets/WalletAWSSeoul.txt --txcount 15 --amount 15000 --multisig Wallets/WalletB04Root.txt
 ./bazo-client funds --from Wallets/WalletB04Root.txt --to Wallets/WalletAWSMumbai.txt --txcount 16 --amount 15000 --multisig Wallets/WalletB04Root.txt
 ./bazo-client funds --from Wallets/WalletB04Root.txt --to Wallets/WalletAWSSingapore.txt --txcount 17 --amount 15000 --multisig Wallets/WalletB04Root.txt
-./bazo-client funds --from Wallets/WalletB04Root.txt --to Wallets/WalletGCPMontreal.txt --txcount 18 --amount 15000 --multisig Wallets/WalletB04Root.txt
+./bazo-client funds --from Wallets/WalletB04Root.txt --to Wallets/WalletAWSMontreal.txt --txcount 18 --amount 15000 --multisig Wallets/WalletB04Root.txt
 
 echo " "
 echo "Sent coins to the previously created Accounts."
