@@ -18,6 +18,7 @@ git pull origin
 
 echo "Check and add Fork"
 git remote add fork https://github.com/febe19/bazo-miner.git
+git remote add fork https://github.com/ilecipi/bazo-miner.git 
 git remote -v 
 git pull fork 
 
@@ -40,6 +41,7 @@ echo "Miner with branch $minerbranch  built."
 echo " "
 cd ~/go/src/github.com/bazo-blockchain/bazo-client
 git remote add fork https://github.com/febe19/bazo-client.git
+git remote add fork https://github.com/ilecipi/bazo-client.git 
 git pull fork
 echo "All Branches on Client:"
 git branch -a
