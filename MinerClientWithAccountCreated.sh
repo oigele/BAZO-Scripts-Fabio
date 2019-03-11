@@ -20,7 +20,8 @@ echo "Check and add Fork"
 git remote add fork1 https://github.com/febe19/bazo-miner.git
 git remote add fork2 https://github.com/ilecipi/bazo-miner.git 
 git remote -v 
-git pull fork 
+git pull fork1
+git pull fork2
 
 echo " "
 cd ~/go/src/github.com/bazo-blockchain/bazo-miner
@@ -42,7 +43,9 @@ echo " "
 cd ~/go/src/github.com/bazo-blockchain/bazo-client
 git remote add fork1 https://github.com/febe19/bazo-client.git
 git remote add fork2 https://github.com/ilecipi/bazo-client.git 
-git pull fork
+git pull fork1
+git pull fork2
+
 echo "All Branches on Client:"
 git branch -a
 echo "Insert Bazo Github Branch for Client"
