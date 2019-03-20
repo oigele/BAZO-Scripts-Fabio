@@ -2,7 +2,7 @@
 
 echo " "
 echo "The following script is written to help you setting up a Bazo Miner & Client when the new account already exists."
-echo "Plese insert the name of the Cloude Provider the VM runs: [AWS/Azure/B04]"
+echo "Plese insert the name of the Cloude Provider the VM runs: [AWS/GCP/B04]"
 read provider
 echo "Plese insert the name of the Location where you set up this VM:"
 read location
@@ -17,9 +17,11 @@ cd ~/go/src/github.com/bazo-blockchain/bazo-miner
 git pull origin
 
 echo "Check and add Fork"
-git remote add fork https://github.com/febe19/bazo-miner.git
+git remote add fork1 https://github.com/febe19/bazo-miner.git
+git remote add fork2 https://github.com/ilecipi/bazo-miner.git 
 git remote -v 
-git pull fork 
+git pull fork1
+git pull fork2
 
 echo " "
 cd ~/go/src/github.com/bazo-blockchain/bazo-miner
@@ -39,8 +41,11 @@ echo "Miner with branch $minerbranch  built."
 
 echo " "
 cd ~/go/src/github.com/bazo-blockchain/bazo-client
-git remote add fork https://github.com/febe19/bazo-client.git
-git pull fork
+git remote add fork1 https://github.com/febe19/bazo-client.git
+git remote add fork2 https://github.com/ilecipi/bazo-client.git 
+git pull fork1
+git pull fork2
+
 echo "All Branches on Client:"
 git branch -a
 echo "Insert Bazo Github Branch for Client"
@@ -65,7 +70,8 @@ read btIP
 jq '.this_client.ip="'$pbIP'"' configuration.json > temp.json
 rm configuration.json
 jq '.bootstrap_server.ip="'$pbIP'"' temp.json > temp2.json
-jq '.multisig_server.ip="'$btIP'"' temp2.json > configuration.json
+jq '.bootstrap_server.port="'8001'"' temp2.json > temp.json
+jq '.multisig_server.ip="'$btIP'"' temp.json > configuration.json
 echo "configuration.json"
 cat configuration.json
 rm temp.json
@@ -102,5 +108,5 @@ fi
 
 echo " "
 echo "Bazo Miner can be started in the Miner folder with: "
-echo "./bazo-miner start --database Store.db --address $pbIP:8000 --bootstrap $btIP:8000 --wallet Wallets/Wallet$provider$location.txt --commitment Commitments/Commitment$provider$location.txt --multisig Wallets/WalletB04Root.txt --rootwallet Wallets/WalletB04Root.txt --rootcommitment Commitments/CommitmentB04Root.txt --confirm"
+echo "./bazo-miner start --database Store.db --address $pbIP:8001 --bootstrap $btIP:8000 --wallet Wallets/Wallet$provider$location.txt --commitment Commitments/Commitment$provider$location.txt --multisig Wallets/WalletB04Root.txt --rootwallet Wallets/WalletB04Root.txt --rootcommitment Commitments/CommitmentB04Root.txt --confirm"
 echo " "
