@@ -8,7 +8,7 @@ cp * ~/Bazo/src/github.com/oigele/bazo-miner
 echo "Copying commitments to client"
 cp * ~/Bazo/src/github.com/oigele/bazo-client
 
-cd ~/BAZO-Scripts-Fabio/wallets
+cd ~/BAZO-Scripts-Fabio/Wallets
 echo "Copying wallets to miner"
 cp * ~/Bazo/src/github.com/oigele/bazo-miner
 echo "Copying wallets to client"
