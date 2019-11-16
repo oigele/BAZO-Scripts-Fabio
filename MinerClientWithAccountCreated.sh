@@ -2,64 +2,10 @@
 
 echo " "
 echo "The following script is written to help you setting up a Bazo Miner & Client when the new account already exists."
-echo "Plese insert the name of the Cloude Provider the VM runs: [AWS/GCP/B04]"
-read provider
 echo "Plese insert the name of the Location where you set up this VM:"
 read location
-echo "We are now setting up a VM in Location $location running on $provider"
+echo "We are now setting up a VM in Location $location running on GCP"
 
-echo " "
-echo "Downloading the Errors Package with: go get github.com/pkg/errors"
-go get github.com/pkg/errors
-echo "Downloading the Client and Miner Package with: go get github.com/bazo-blockchain/bazo-client"
-go get github.com/bazo-blockchain/bazo-client
-cd ~/go/src/github.com/bazo-blockchain/bazo-miner
-git pull origin
-
-echo "Check and add Fork"
-git remote add fork1 https://github.com/febe19/bazo-miner.git
-git remote add fork2 https://github.com/ilecipi/bazo-miner.git 
-git remote -v 
-git pull fork1
-git pull fork2
-
-echo " "
-cd ~/go/src/github.com/bazo-blockchain/bazo-miner
-git pull
-echo "All Branches on Miner:"
-git branch -a
-echo "Insert Bazo Github Branch for Miner"
-read minerbranch 
-echo "git checkout $minerbranch ? [y/n]"
-read selection
-if [ "$selection" = "y" ]
-  then git checkout $minerbranch
-  else exit 1
-fi
-go build 
-echo "Miner with branch $minerbranch  built."
-
-echo " "
-cd ~/go/src/github.com/bazo-blockchain/bazo-client
-git remote add fork1 https://github.com/febe19/bazo-client.git
-git remote add fork2 https://github.com/ilecipi/bazo-client.git 
-git pull fork1
-git pull fork2
-
-echo "All Branches on Client:"
-git branch -a
-echo "Insert Bazo Github Branch for Client"
-read clientbranch 
-echo "git checkout $clientbranch ? [y/n]"
-read selection
-if [ "$selection" = "y" ]
-  then git checkout $clientbranch
-  else exit 1
-fi
-go build
-echo "Client with branch $clientbranch built."
-
-echo " "
 cd ~/go/src/github.com/bazo-blockchain/bazo-client
 pbIP=$(curl https://ipinfo.io/ip)
 echo " "
@@ -78,11 +24,14 @@ rm temp.json
 rm temp2.json
 cd ~/go/src/github.com/bazo-blockchain/bazo-client
 
+cd ~/BAZO-Scripts-Fabio
+git pull
+
 echo "List of Wallets:"
 cd ~/BAZO-Scripts-Fabio/Wallets
 ls
 echo " "
-echo "Is there a Wallet with the Wallet$provider$location.txt on the list? [y/n]"
+echo "Is there a Wallet with the Wallet GCP$location.txt on the list? [y/n]"
 read selection
 if [ "$selection" = "y" ]
   then cp -r ~/BAZO-Scripts-Fabio/Wallets ~/go/src/github.com/bazo-blockchain/bazo-miner
@@ -108,5 +57,5 @@ fi
 
 echo " "
 echo "Bazo Miner can be started in the Miner folder with: "
-echo "./bazo-miner start --database Store.db --address $pbIP:8001 --bootstrap $btIP:8000 --wallet Wallets/Wallet$provider$location.txt --commitment Commitments/Commitment$provider$location.txt --multisig Wallets/WalletB04Root.txt --rootwallet Wallets/WalletB04Root.txt --rootcommitment Commitments/CommitmentB04Root.txt --confirm"
+echo "./bazo-miner start --database Store.db --address $pbIP:8001 --bootstrap $btIP:8000 --wallet Wallets/WalletGCP$location.txt --commitment Commitments/CommitmentGCP$location.txt --multisig Wallets/WalletGCPCentral.txt --rootwallet Wallets/WalletGCPCentral.txt --rootcommitment Commitments/CommitmentGCPCentral.txt --confirm"
 echo " "
