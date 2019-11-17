@@ -5,12 +5,14 @@ cd ~/Bazo/src/github.com/oigele/bazo-miner
 echo "Removing all files from miner"
 rm Log*
 rm Store*
-rm GCP*
+rm Wallet*
+rm Commitment*
 cd ~/Bazo/src/github.com/oigele/bazo-client
 echo "Removing all files from client"
 rm Log*
 rm Store*
-rm GCP*
+rm Wallet*
+rm Commitment*
 rm client.db
 rm Performance*
 echo "script execution finished. All data deleted"
