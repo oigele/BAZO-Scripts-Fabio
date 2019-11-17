@@ -13,6 +13,8 @@ if [ "$selection" = "y" ]
 	else exit 1
 fi
 
+cd ~/Bazo/src/github.com/oigele/bazo-client
+
 mkdir Commitments
 
 ./bazo-client account create --rootwallet Wallets/WalletGCPCentral.txt --wallet Wallets/WalletGCPEast.txt
